@@ -35,7 +35,7 @@ export const PROVIDER_TYPES = Object.freeze({
         defaultLimitId: 'codex',
         installUrl: 'https://learn.chatgpt.com/docs/codex/cli',
         keyUrl: null,
-        usageUrl: 'https://chatgpt.com/codex/settings/usage',
+        usageUrl: 'https://chatgpt.com/settings/usage?tab=overview',
         icon: 'codex.svg',
     }),
     claude: Object.freeze({
