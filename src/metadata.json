@@ -1,0 +1,13 @@
+{
+    "description": "Shows how much of your AI usage limits is left, in the top bar: Codex, Claude, Antigravity and your own JSON endpoint, and in beta OpenRouter, DeepSeek, Ollama Cloud and Kimi Code.\n\nFeatures:\n* One indicator per account, with several accounts of every provider but Antigravity\n* Logo, battery bar, dots and your own label and colors, where you choose in the top bar\n* Every usage window with its reset time and a forecast at the current pace\n* Notifications when usage runs low, before usage would reset unused and before a Codex manual reset expires\n* Codex manual resets: redeem one after confirming, or opt in to automatic redemption in a reset's last hour\n* Usage chart of the last seven days, extra usage and balances in money\n* Keyboard shortcut that opens the menu\n\nHow it reads usage:\n* Codex: runs the installed codex app-server\n* Claude: reads Claude Code's login in ~/.claude/.credentials.json, in $CLAUDE_CONFIG_DIR or in the configuration directory you choose for an account, and requests the profile and usage from api.anthropic.com; runs claude doctor once to renew an expired login\n* Antigravity: runs the installed agy --version and agy -p /usage\n* OpenRouter (openrouter.ai), DeepSeek (api.deepseek.com), Ollama Cloud (ollama.com) and Kimi Code (api.kimi.com or api.kimi.ai, by region): request usage from the provider's API with an API key you add\n* Custom endpoint: requests the URL you enter\n\nPrivacy:\n* API keys are stored in the GNOME keyring, which preferences create as the default keyring when none exists\n* Contacts only the services of the accounts you add; the CLIs contact their own services\n* Never writes the CLIs' credentials itself\n* Keeps each account's last reading and usage history in your cache and state folders, without emails, tokens or API keys\n\nCodex, Claude, Antigravity, OpenRouter, DeepSeek, Ollama and Kimi are trademarks of their respective owners. This extension is not affiliated with or endorsed by them; their names and logos only identify each service.",
+    "name": "Agent Usage Indicator",
+    "settings-schema": "org.gnome.shell.extensions.gnome-extension-codex-limit-indicator",
+    "shell-version": ["50", "51"],
+    "url": "https://github.com/englertbruno/gnome_extension_agent_limit",
+    "uuid": "gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com",
+    "gettext-domain": "gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com",
+    "donations": {
+        "buymeacoffee": "brunoenglert"
+    },
+    "version": 2611270934
+}

@@ -1,0 +1,1520 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Agent Usage Indicator, uk translation.
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 12:00+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "%s CLI не знайдено"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "%s CLI не повернув квот моделей"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "Відомості про обліковий запис %s недоступні"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "Обліковий запис %s призупинено"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s не відповів"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s тимчасово недоступний"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "Вхід %s застарів; відкрийте його CLI, щоб оновити"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "Процес %s неочікувано зупинився"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s повернув некоректну відповідь"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s не повернув даних про використання"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "Перевірки використання %s тимчасово обмежено за частотою"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "Використання %s недоступне"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "Ліміти використання %s недоступні для цього входу"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "Вікно використання вичерпано"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr ""
+"Обліковий запис змінено; використання оновиться під час наступної перевірки"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "Не вдається з’єднатися з %s"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "Стан ліміту: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "Кредити учасника вичерпано"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "Досягнуто ліміту використання учасника"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "Ключ API не збережено. Додайте його в Параметрах."
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "URL-адресу кінцевої точки не задано"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "Служба в’язки ключів не запущена"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "Вікон квот не повернуто"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "Відкрийте %s CLI і ввійдіть"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "Досягнуто ліміту частоти"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "Вибраний ліміт недоступний для цього облікового запису"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "Увійдіть у %1$s командою %2$s"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "Досягнуто ліміту витрат"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "Ключ API не можна надіслати з цими налаштуваннями заголовка ключа"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr ""
+"URL-адреса кінцевої точки має використовувати HTTPS, якщо вона не на цьому "
+"комп’ютері"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "Відповідь кінцевої точки не відповідає зіставленню полів"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "Служба відхилила ключ API"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "Цей обліковий запис не підходить для %s"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "Недоступно для цього облікового запису"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "Розблокуйте в’язку ключів входу, щоб прочитати ключ API"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "Оновіть %1$s CLI до версії %2$s або новішої"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "Використання застаріло"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "Кредити робочого простору вичерпано"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "Досягнуто ліміту використання робочого простору"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s завершується через %2$s"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s. %2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: залишилося %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: використано %2$s"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$sд %2$sгод"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$sгод %2$sхв"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$sхв %2$sс"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d-денний"
+msgstr[1] "%d-денні"
+msgstr[2] "%d-денних"
+msgstr[3] "%d-денний"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d-годинний"
+msgstr[1] "%d-годинні"
+msgstr[2] "%d-годинних"
+msgstr[3] "%d-годинний"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "Ліміт %s майже вичерпано"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "Ручне скидання %s невдовзі завершиться"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "Ручне скидання %s не використано"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "Ліміти використання %s скинуто"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "Використання %s скинеться невикористаним"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "Використано %s"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s-хвилинний"
+msgstr[1] "%s-хвилинні"
+msgstr[2] "%s-хвилинних"
+msgstr[3] "%s-хвилинний"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%sхв"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "Обліковий запис недоступний"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "Додати ключ API…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "Квота: залишилося %1$s з %2$s"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "Квота: залишилося %s"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "За поточного темпу при скиданні залишиться близько %s"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "За поточного темпу вистачить до скидання"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "За поточного темпу вичерпається через %s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "Автовикористання спробувало «%1$s» до завершення. %2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "Баланс: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "Перевірка облікового запису та використання…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "Кредит"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "Кредити доступні"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "Кредити: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "Кредити: необмежено"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "Завершено"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "Завершується через %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "Завершується через %s"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "Додаткове використання"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "Додаткове використання вимкнено"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "Додаткове використання ввімкнено"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "Додаткове використання: %1$s з %2$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "Додаткове використання: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "Додаткове використання: %s (без обмеження)"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "Встановити %s…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "Ліміт ключа: залишилося %1$s з %2$s"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "Використання ключа: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "Оновлено %d день тому"
+msgstr[1] "Оновлено %d дні тому"
+msgstr[2] "Оновлено %d днів тому"
+msgstr[3] "Оновлено %d день тому"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "Оновлено %d годину тому"
+msgstr[1] "Оновлено %d години тому"
+msgstr[2] "Оновлено %d годин тому"
+msgstr[3] "Оновлено %d годину тому"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "Оновлено %d хвилину тому"
+msgstr[1] "Оновлено %d хвилини тому"
+msgstr[2] "Оновлено %d хвилин тому"
+msgstr[3] "Оновлено %d хвилину тому"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "Оновлено менше хвилини тому"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "Ручні скидання (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "Ручне скидання"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "Ручних скидань: %1$d · наступне завершується через %2$s"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "Ручних скидань: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "Найбільше використання: %s"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "Кредитів немає"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "Ручних скидань немає."
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "Зараз жодного ліміту використання скинути не можна."
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "Немає використання за останні сім днів"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "Вхід не виконано"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "Відкрити параметри…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "План: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "Основне вікно"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "Квота"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "Скидання очікує оновлення"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "Час скидання недоступний"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "Скидання через %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "Скидання через %s"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "Додаткове вікно"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "Потрібне налаштування"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr ""
+"Обліковий запис не підтверджено. Спробуйте ще раз, коли його ліміти буде "
+"показано."
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr "Розширення не змогло записати на диск, тому скидання не запитано."
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "Запит не вдався."
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "Непідтримуваний вхід"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "Оновити %s…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "Використання"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "Тижневий"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "«%s» використано"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "«%s» використано автоматично до завершення"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "0, якщо невідомо"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "Обліковий запис"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "Бета, не перевірено"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "Китай (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "Вибрати…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "Каталог конфігурації"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "Керівні символи не можна надіслати"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "Типово"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "Кінцева точка"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "Посібник зі встановлення"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "Міжнародний (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "Його налаштування та ключ API буде видалено"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr ""
+"Його налаштування буде видалено. Вхід інструмента командного рядка "
+"збережеться."
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"Вказівники JSON на значення у відповіді, наприклад /usage/percent. Якщо "
+"задано відсоток, використовується він, інакше використана кількість і ліміт."
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "Заголовок ключа"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Кінцева точка використання Kimi Code не задокументована, тому формат її "
+"відповіді не перевірено. Інші бета-провайдери створені за документацією API "
+"та не перевірені. Будь ласка, повідомляйте про проблеми."
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "Ліміт"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "Вниз"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "Вгору"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "Назва"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "Необов’язково; надсилається в заголовку вище"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "Порядок"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "Відсоток"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "Відсоток відлічується"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "Читає використання з кінцевої точки JSON"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "Автоматично використовувати ручні скидання до їхнього завершення"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "Інтервал оновлення (секунд)"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "Регіон"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "Залишилося"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "Вилучити"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "Вилучити %s?"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "Вилучити обліковий запис…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "Скинути"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "Час скидання"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "Відповідь"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "Секунд між автоматичними перевірками використання; мінімум %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "Показувати на верхній панелі"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "Вхід"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "Починайте з /, а в назвах пишіть ~0 замість ~ і ~1 замість /"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "Текст перед ключем"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "Верхня панель показує облікові записи в такому порядку"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "Сторінка використання"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "Використовуйте адресу https"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "Використовуйте https або http до цього комп’ютера"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "Використовуйте лише літери, цифри та !#$%&'*+-.^_`|~"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "Використовувати типовий каталог"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "Використано"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "Використана кількість"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"Використовує ручне скидання в останню годину без запиту. Це без нагляду "
+"скидає ліміти використання облікового запису."
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "Використовує ключ API, що зберігається в в’язці ключів"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr ""
+"Використовує обліковий запис ChatGPT, у який виконано вхід через Codex CLI"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Використовує підписку Claude, у яку виконано вхід через Claude Code"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr ""
+"Використовує обліковий запис Google, у який виконано вхід через Antigravity "
+"CLI (agy)"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "Де створено ключ"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "Тривалість вікна (хвилин)"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "Ключі API"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "Додати обліковий запис"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "Уже додано; його CLI має один вхід"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "Бета"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "Входи командного рядка"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "Інше"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "Читає використання за ключем API, що зберігається в в’язці ключів"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "Використовує вхід інструмента командного рядка провайдера"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "Ключ збережено в в’язці ключів"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "Ключ API"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: ключ API для %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "Спочатку застосуйте URL, адже ключ належить службі цього URL"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "Перевірка в’язки ключів…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "Введіть ключ без пробілів і керівних символів"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "Отримати ключ API"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "Новий ключ"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "Ключ не збережено"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "Для %s ключ не збережено"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr ""
+"Не вдалося зберегти налаштування облікового запису, тому ключ не збережено"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "Не вдалося прочитати в’язку ключів"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "В’язка ключів не змогла вилучити ключ"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "В’язка ключів не змогла зберегти ключ"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "Запит в’язки ключів закрито, тому ключ не вилучено"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "Запит в’язки ключів закрито, тому ключ не збережено"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "цей URL"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "Поведінка"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "Пільговий період (секунд)"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"Приховує тимчасові збої, перш ніж позначити останнє значення застарілим; 0 "
+"вимикає пільговий період"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "Меню"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "Меню та поведінка"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"Записує використання в ~/.local/state і показує його на графіку; вимкнення "
+"видаляє запис"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "Показувати час скидання"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "Показувати історію використання"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "Показувати час доби поруч із довгими відліками"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "Залишилося %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "Виберіть колір для залишку %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "Шістнадцятковий колір для залишку %1$s–%2$s"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "Шістнадцятковий колір у форматі #RRGGBB"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "Задати колір рівня для цього діапазону"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "Вибір каталогу конфігурації"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: коли ручне скидання завершується протягом 48 годин"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "Годин до скидання"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "Ліміт майже вичерпано"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "Ручні скидання"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "Поріг сповіщення (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "Сповіщати до завершення ручного скидання"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "Сповіщати, коли ліміт майже вичерпано"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr "Раз на вікно використання, для ліміту на верхній панелі"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "Відсоток залишку, що запускає сповіщення"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "Нагадати, поки використання не пропало"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "Нагадувати не раніше ніж за стільки до скидання"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "Нагадати, якщо при скиданні залишиться щонайменше стільки"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "Невикористаний ліміт"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "Невикористана частка (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "Коли за поточного темпу при скиданні залишиться невикористаний ліміт"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s, вимкнено"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "Облікові записи"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "Додати обліковий запис…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "Загальне"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "Вимкнено"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Обліковий запис не додано, бо не вдалося видалити старий ключ API з в’язки "
+"ключів"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr ""
+"Обліковий запис не додано, бо не лишилося вільного місця для облікових "
+"записів"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"Обліковий запис не додано: інший обліковий запис цього типу використовує "
+"типовий вхід, тому новому потрібен власний каталог конфігурації"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Обліковий запис не вилучено, бо його ключ API не вдалося видалити з в’язки "
+"ключів"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"Каталог не використано, бо інший обліковий запис цього типу вже входить з "
+"нього"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "Комбінація клавіш"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr ""
+"Відкриває меню першого облікового запису; Ліворуч і Праворуч переходять до "
+"інших"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Натисніть комбінацію клавіш із Ctrl, Alt або Super, або Backspace, щоб "
+"прибрати комбінацію"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "Встановити скорочення"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr ""
+"Власна мітка може містити %s. Напишіть {{ або }} для літеральної дужки."
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "Налаштувати логотип над смугою або точками"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "Ділянка"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "Призначте колір кожному діапазону залишку в 10%"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "Розташування смуги"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "Знизу"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "По центру"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "Виберіть, як розфарбовуються смуга та точки"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "Виберіть, де смуга розташована відносно логотипа"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "Колірна схема"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "Кольорова"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr "Враховує всі елементи ділянки, зокрема GNOME Shell та інших розширень"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "Власна"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "Власні кольори"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "Власна мітка"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "Налаштована"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "Показувати від однієї до чотирьох точок рівня під логотипом"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "Показувати логотип провайдера"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr "Показувати ліміт як смугу рівня у формі батареї"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr ""
+"Якщо сховати мітку та всі частини, індикатори зникнуть із верхньої панелі"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "Мітка"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "Ліворуч"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "Ліворуч"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "Кольори рівня"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "Розмір логотипа (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "Немає"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "Частина верхньої панелі, де розміщені індикатори"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "Відсоток і відлік до скидання"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "Відсотки зростають від 0%, коли ліміт використовується"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "Розташування"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "Позиція на ділянці"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "Відлік до скидання"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "Праворуч"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "Праворуч"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "Показувати смугу"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "Показувати точки"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "Показувати логотип"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "Показувати використане замість залишку"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "Символічна"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"Символічна схема слідує кольору переднього плану Shell, Кольорова "
+"використовує колір успіху, а обидві використовують колір попередження при "
+"%20 або менше. Налаштована використовує діапазони нижче."
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "Текст"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "Верхня панель"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "Невідомі заповнювачі: %s"
+msgstr[1] "Невідомі заповнювачі: %s"
+msgstr[2] "Невідомі заповнювачі: %s"
+msgstr[3] "Невідомий заповнювач: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "Власна кінцева точка"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "Подробиці помилки"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "Ручне скидання…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "Оновити"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "Параметри"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "Сторінка використання"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "Використання за останні сім днів"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"Це використає наступне ручне скидання та скине ваші поточні ліміти "
+"використання. Скасувати це неможливо."
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr ""
+"Це використає «%s» і скине ваші поточні ліміти використання. Скасувати це "
+"неможливо."
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "Використати скидання"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "Використати ручне скидання?"
+
+#~ msgid "Checking…"
+#~ msgstr "Перевірка…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "Для хоста цієї URL-адреси ключ не збережено"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "Оновлення через %s"
+
+#~ msgid "Refreshing…"
+#~ msgstr "Оновлення…"

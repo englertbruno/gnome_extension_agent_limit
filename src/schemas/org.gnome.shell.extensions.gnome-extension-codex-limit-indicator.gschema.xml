@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2026 Bruno Englert -->
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator"
+    path="/org/gnome/shell/extensions/gnome-extension-codex-limit-indicator/">
+    <key name="accounts" type="as">
+      <default>['account-0']</default>
+      <summary>Accounts in top-bar order</summary>
+      <description>Names of the account-N children in use. Other names are ignored.</description>
+    </key>
+    <child name="account-0" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-1" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-2" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-3" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-4" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-5" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-6" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-7" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-8" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-9" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-10" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-11" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-12" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-13" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-14" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <child name="account-15" schema="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account"/>
+    <key name="grace-period" type="u">
+      <range min="0" max="86400"/>
+      <default>120</default>
+      <summary>Grace period in seconds</summary>
+      <description>Keep the last successful reading without a warning during temporary failures. Starts at the first failed refresh,
+        or when the retry delay that failure asked for ends; zero marks retained readings stale from then on.</description>
+    </key>
+    <key name="panel-box" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>'right'</default>
+      <summary>Top-bar area of the indicators</summary>
+    </key>
+    <key name="panel-index" type="u">
+      <range min="0" max="99"/>
+      <default>1</default>
+      <summary>Position of the first indicator in its top-bar area</summary>
+      <description>Counts every item of the area, including those of GNOME Shell and other extensions. Positions past the last item place the indicators at the end.</description>
+    </key>
+    <key name="panel-label" type="s">
+      <default>'{percent}'</default>
+      <summary>Top-bar label template</summary>
+      <description>Placeholders: {percent}, {remaining}, {used}, {reset}, {reset_time}, {window} and {account}. Empty hides the label.</description>
+    </key>
+    <key name="show-used" type="b">
+      <default>false</default>
+      <summary>Show used instead of remaining percentages</summary>
+    </key>
+    <key name="show-reset-clock" type="b">
+      <default>true</default>
+      <summary>Show the clock time of resets in the menu</summary>
+    </key>
+    <key name="show-history" type="b">
+      <default>true</default>
+      <summary>Record usage history and show it in the menu</summary>
+    </key>
+    <key name="notify-low-remaining" type="b">
+      <default>false</default>
+      <summary>Notify when the usage shown in the top bar runs low</summary>
+      <description>Each indicator notifies at most once per usage window. The first reading after enabling the extension or changing the account or shown window does not notify.</description>
+    </key>
+    <key name="low-remaining-threshold" type="u">
+      <range min="1" max="50"/>
+      <default>10</default>
+      <summary>Remaining percentage that triggers the notification</summary>
+    </key>
+    <key name="notify-unused" type="b">
+      <default>false</default>
+      <summary>Notify when usage would go unused before a reset</summary>
+    </key>
+    <key name="unused-threshold" type="u">
+      <range min="10" max="100"/>
+      <default>50</default>
+      <summary>Projected percentage left at the reset that triggers the reminder</summary>
+    </key>
+    <key name="unused-hours" type="u">
+      <range min="1" max="72"/>
+      <default>24</default>
+      <summary>Hours before the reset when the reminder may appear</summary>
+    </key>
+    <key name="notify-reset-expiry" type="b">
+      <default>false</default>
+      <summary>Notify when a Codex manual reset expires within 48 hours</summary>
+    </key>
+    <key name="toggle-agent-usage-menu" type="as">
+      <default>[]</default>
+      <summary>Keyboard shortcut that opens the first account's menu</summary>
+    </key>
+    <key name="show-logo" type="b">
+      <default>true</default>
+      <summary>Show each provider's logo in the top bar</summary>
+    </key>
+    <key name="show-bar" type="b">
+      <default>true</default>
+      <summary>Show the remaining limit as a level bar</summary>
+    </key>
+    <key name="show-dots" type="b">
+      <default>false</default>
+      <summary>Show the remaining limit as level dots</summary>
+    </key>
+    <key name="level-bar-position" type="i">
+      <range min="0" max="2"/>
+      <default>1</default>
+      <summary>Position of the level bar relative to the logo</summary>
+      <description>0 places the bar on the left, 1 on the right, and 2 below the logo.</description>
+    </key>
+    <key name="indicator-size" type="i">
+      <range min="50" max="100"/>
+      <default>100</default>
+      <summary>Logo size when a level indicator appears below it</summary>
+      <description>Percentage of the available logo area used by the logo.</description>
+    </key>
+    <key name="color-scheme" type="u">
+      <range min="0" max="2"/>
+      <default>1</default>
+      <summary>Color scheme for the level bar and dots</summary>
+      <description>0 uses symbolic colors, 1 uses status colors, and 2 uses custom colors.</description>
+    </key>
+    <key name="custom-colors" type="as">
+      <default>['#ff7800', '#ff7800', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931', '#15c931']</default>
+      <summary>Custom colors for each 10 percent range</summary>
+      <description>Colors run from 0–10 percent through 91–100 percent remaining.</description>
+    </key>
+  </schema>
+</schemalist>

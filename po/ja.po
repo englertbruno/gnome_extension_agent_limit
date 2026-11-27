@@ -1,0 +1,1487 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 10:15+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "%s CLI が見つかりません"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "%s CLI がモデルのクォータを返しませんでした"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "%s のアカウント情報を利用できません"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "%s アカウントは停止されています"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s が応答しませんでした"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s は一時的に利用できません"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "%s のログインの期限が切れました。CLI を開いて更新してください"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "%s のプロセスが予期せず停止しました"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s が無効な応答を返しました"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s が使用量データを返しませんでした"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "%s の使用量確認は一時的にレート制限されています"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "%s の使用量を利用できません"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "このログインでは %s の使用制限を利用できません"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "使用ウィンドウが使い切られました"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "アカウントが変更されました。次回の確認で使用量を更新します"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "%s に接続できません"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "上限の状態: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "メンバーのクレジットが尽きました"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "メンバーの使用制限に達しました"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "API キーが保存されていません。設定で追加してください。"
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "エンドポイントの URL が設定されていません"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "キーリングサービスが実行されていません"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "クォータウィンドウが返されませんでした"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "%s CLI を開いてサインインしてください"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "レート制限に達しました"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "選択した上限はこのアカウントでは利用できません"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "%2$s を使って %1$s にサインインしてください"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "支出上限に達しました"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "これらのキーヘッダー設定では API キーを送信できません"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr ""
+"エンドポイントの URL は、このコンピューター上でない限り HTTPS を使う必要があ"
+"ります"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "エンドポイントの応答がフィールドのマッピングと一致しません"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "サービスが API キーを拒否しました"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "このアカウントは %s の対象ではありません"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "このアカウントでは利用できません"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "API キーを読み取るにはログインキーリングのロックを解除してください"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "%1$s CLI をバージョン %2$s 以降に更新してください"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "使用量が古くなっています"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "ワークスペースのクレジットが尽きました"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "ワークスペースの使用制限に達しました"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s は %2$s後に期限切れ"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s、%2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s。%2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: 残り %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: %2$s 使用済み"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$s日%2$s時間"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$s時間%2$s分"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$s分%2$s秒"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d日間"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d時間"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "%s の上限の残りが少なくなりました"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "%s の手動リセットがまもなく期限切れ"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "%s の手動リセットは未使用"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "%s の使用制限がリセットされました"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "%s の使用量が未使用のままリセットされます"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "%s 使用済み"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s分間"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%s分"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "アカウントを利用できません"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "API キーを追加…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "利用枠: 残り %1$s / %2$s"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "利用枠: 残り %s"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "現在のペースでは、リセット時に約 %s が残ります"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "現在のペースでリセットまで足ります"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "現在のペースでは %s後に使い切ります"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "自動使用が期限前に「%1$s」を試みました。%2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "残高: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "アカウントと使用量を確認中…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "クレジット"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "クレジットあり"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "クレジット: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "クレジット: 無制限"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "期限切れ"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "%1$s後に期限切れ（%2$s）"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "%s後に期限切れ"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "追加使用量"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "追加使用量は無効"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "追加使用量は有効"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "追加使用量: %2$s のうち %1$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "追加使用量: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "追加使用量: %s（上限なし）"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "%s をインストール…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "キーの上限: 残り %1$s / %2$s"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "キーの使用量: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "最終更新 %d日前"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "最終更新 %d時間前"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "最終更新 %d分前"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "最終更新は1分未満前"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "手動リセット (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "手動リセット"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "手動リセット: %1$d · 次の期限は %2$s後"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "手動リセット: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "%s に最も多く使用"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "利用可能なクレジットなし"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "利用できる手動リセットはありません。"
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "現在リセットできる使用制限はありません。"
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "過去7日間の使用なし"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "サインインしていません"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "設定を開く…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "プラン: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "プライマリウィンドウ"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "クォータ"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "リセットは更新待ち"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "リセット時刻を利用できません"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "%1$s後にリセット（%2$s）"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "%s後にリセット"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "セカンダリウィンドウ"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "セットアップが必要"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr ""
+"アカウントが確認されていません。上限が表示されてから、もう一度お試しくださ"
+"い。"
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr ""
+"拡張機能がディスクに書き込めなかったため、リセットを要求しませんでした。"
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "リクエストに失敗しました。"
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "未対応のログイン"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "%s を更新…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "使用量"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "週間"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "「%s」を使用しました"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "「%s」は期限前に自動で使用されました"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "不明な場合は 0"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "アカウント"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "ベータ版・未検証"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "中国 (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "選択…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "設定ディレクトリ"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "制御文字は送信できません"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "既定"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "エンドポイント"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "インストールガイド"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "国際 (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "その設定と API キーは削除されます"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr "その設定は削除されます。コマンドラインツールのログインは残ります。"
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"応答内の値を指す JSON ポインター（例: /usage/percent）。設定されている場合は"
+"割合を使用し、そうでなければ使用量と上限を使用します。"
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "キーのヘッダー"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Kimi Code の使用量エンドポイントは文書化されていないため、レスポンス形式は未"
+"検証です。他のベータ版プロバイダーは API ドキュメントに基づいて作られており、"
+"未検証です。問題があれば報告してください。"
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "上限"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "下へ移動"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "上へ移動"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "名前"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "任意。上のヘッダーで送信されます"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "順序"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "割合"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "割合の数え方"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "JSON エンドポイントから使用量を読み取ります"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "手動リセットを期限前に自動で使用する"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "更新間隔（秒）"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "地域"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "残り"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "削除"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "%s を削除しますか？"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "アカウントを削除…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "リセット"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "リセット時刻"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "レスポンス"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "使用量を自動確認する間隔（秒）。最小 %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "トップバーに表示"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "サインイン"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "/ で始め、名前の ~ は ~0、/ は ~1 と書きます"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "キーの前のテキスト"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "トップバーはこの順序でアカウントを表示します"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "使用量ページ"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "https のアドレスを使用してください"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "https を使用するか、このコンピューターへの http を使用してください"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "英字、数字、!#$%&'*+-.^_`|~ のみ使用できます"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "既定のディレクトリを使用"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "使用済み"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "使用量"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"最後の1時間に確認なしで手動リセットを使用します。アカウントの使用制限が無人で"
+"リセットされます。"
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "キーリングに保存した API キーを使用します"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "Codex CLI でサインインした ChatGPT アカウントを使用します"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Claude Code でサインインした Claude サブスクリプションを使用します"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "Antigravity CLI (agy) でサインインした Google アカウントを使用します"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "キーを作成した地域"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "ウィンドウの長さ（分）"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "API キー"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "アカウントを追加"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "追加済み。その CLI のログインは1つです"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "ベータ"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "コマンドラインのログイン"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "その他"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "キーリングに保存した API キーで使用量を読み取ります"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "プロバイダーのコマンドラインツールのログインを使用します"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "キーはキーリングに保存されています"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "API キー"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: %s の API キー"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "キーはURLのサービスに属するため、先にURLを適用してください"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "キーリングを確認中…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "空白や制御文字を含まないキーを入力してください"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "API キーを取得"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "新しいキー"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "キーは保存されていません"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "%s のキーは保存されていません"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr "アカウントの設定を保存できなかったため、キーは保存されませんでした"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "キーリングを読み取れませんでした"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "キーリングがキーを削除できませんでした"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "キーリングがキーを保存できませんでした"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "キーリングのプロンプトが閉じられたため、キーは削除されませんでした"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "キーリングのプロンプトが閉じられたため、キーは保存されませんでした"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "このURL"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "動作"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "猶予期間（秒）"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"一時的な失敗を隠してから、最後の読み取りを古いものとして表示します。0 で猶予"
+"なし"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "メニュー"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "メニューと動作"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"使用量を ~/.local/state に記録してグラフ化します。オフにすると記録は削除され"
+"ます"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "リセットの時刻を表示"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "使用履歴を表示"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "長いカウントダウンの横に時刻を表示します"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "残り %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "残り %1$s–%2$s の色を選択"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "残り %1$s–%2$s の16進数カラー"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "#RRGGBB 形式の16進数カラー"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "この範囲のレベルの色を設定します"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "設定ディレクトリを選択"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: 手動リセットの期限が48時間以内のとき"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "リセット前の時間数"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "上限の残りわずか"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "手動リセット"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "通知のしきい値 (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "通知"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "手動リセットの期限前に通知"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "上限の残りが少なくなったら通知"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr "使用ウィンドウごとに1回、トップバーに表示している上限が対象です"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "通知を発生させる残りの割合"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "使用量が未使用になる前に知らせる"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "リセットのこれより前には知らせません"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "リセット時にこれ以上余りそうなときに知らせます"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "未使用の使用量"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "未使用の割合 (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "現在のペースではリセット時に使用量が余る場合"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s、オフ"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "アカウント"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "アカウントを追加…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "全般"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "オフ"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr ""
+"古い API キーをキーリングから削除できなかったため、アカウントは追加されません"
+"でした"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "空きアカウントスロットがないため、アカウントは追加されませんでした"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"アカウントは追加されませんでした。この種類の別のアカウントが既定のログインを"
+"使用しているため、新しいアカウントには専用の設定ディレクトリが必要です"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr ""
+"アカウントのAPIキーをキーリングから削除できなかったため、アカウントは削除され"
+"ませんでした"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"この種類の別のアカウントがすでにそこからサインインしているため、そのディレク"
+"トリは使用されませんでした"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "無効"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "キーボードショートカット"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr ""
+"最初のアカウントのメニューを開きます。左右キーで他のアカウントに移動します"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Ctrl、Alt、Super を使ったキーの組み合わせを押してください。Backspace でショー"
+"トカットを削除します"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "ショートカットを設定"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr ""
+"カスタムラベルには %s を含められます。波括弧そのものには {{ または }} と書き"
+"ます。"
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "バーまたはドットの上のロゴを調整します"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "外観"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "エリア"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "残りの使用可能量の10%ごとの範囲に色を割り当てます"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "バーの位置"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "下"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "中央"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "バーとドットの色付け方法を選択します"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "ロゴに対してバーを表示する位置を選択します"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "配色"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "カラー"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr ""
+"GNOME Shell や他の拡張機能のものを含め、エリア内のすべての項目を数えます"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "カスタム"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "カスタムカラー"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "カスタムラベル"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "カスタマイズ"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "ロゴの下に1〜4個のレベルドットを表示します"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "プロバイダーのロゴを表示します"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr "表示中の上限をバッテリー形のレベルバーで表示します"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr ""
+"ラベルとすべての要素を非表示にすると、インジケーターがトップバーから消えます"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "ラベル"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "左"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "左"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "レベルの色"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "ロゴのサイズ (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "なし"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "インジケーターを置くトップバーの部分"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "割合とリセットまでのカウントダウン"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "上限を使うにつれて割合が 0 パーセントから増えます"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "位置"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "エリア内の位置"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "リセットまでのカウントダウン"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "右"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "右"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "バーを表示"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "ドットを表示"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "ロゴを表示"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "残りではなく使用済みを表示"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "シンボリック"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"シンボリックは Shell の前景色に従い、カラーは成功色を使い、どちらも 20% 以下"
+"では警告色を使います。カスタマイズは下の範囲を使います。"
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "テキスト"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "トップバー"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "不明なプレースホルダー: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "カスタムエンドポイント"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "エラーの詳細"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "手動リセット…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "更新"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "設定"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "使用量ページ"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "過去7日間の使用"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"次の手動リセットを使用して、現在の使用制限をリセットします。元に戻せません。"
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr "「%s」を使用して、現在の使用制限をリセットします。元に戻せません。"
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "リセットを使用"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "手動リセットを使用しますか？"
+
+#~ msgid "Checking…"
+#~ msgstr "確認中…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "この URL のホスト用のキーは保存されていません"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "%s後に更新"
+
+#~ msgid "Refreshing…"
+#~ msgstr "更新中…"

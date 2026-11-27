@@ -1,0 +1,15 @@
+src/accounts/issues.js
+src/accounts/presentation.js
+src/preferences/accountPage.js
+src/preferences/addAccountDialog.js
+src/preferences/apiKeyGroup.js
+src/preferences/behaviorPage.js
+src/preferences/customColorRow.js
+src/preferences/folderChooser.js
+src/preferences/notificationsPage.js
+src/preferences/preferencesView.js
+src/preferences/shortcutRow.js
+src/preferences/topBarPage.js
+src/shared/providerTypes.js
+src/ui/limitIndicator.js
+src/ui/redeemDialog.js

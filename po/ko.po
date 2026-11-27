@@ -1,0 +1,1477 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 12:00+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: ko\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "%s CLI를 찾을 수 없습니다"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "%s CLI가 모델 할당량을 반환하지 않았습니다"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "%s 계정 정보를 사용할 수 없습니다"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "%s 계정이 정지되었습니다"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s이(가) 응답하지 않았습니다"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s을(를) 일시적으로 사용할 수 없습니다"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "%s 로그인이 만료되었습니다. CLI를 열어 갱신하세요"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "%s 프로세스가 예기치 않게 중지되었습니다"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s이(가) 잘못된 응답을 반환했습니다"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s이(가) 사용량 데이터를 반환하지 않았습니다"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "%s 사용량 확인이 일시적으로 제한되었습니다"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "%s 사용량을 사용할 수 없습니다"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "이 로그인으로는 %s 사용량 한도를 사용할 수 없습니다"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "사용량 구간이 모두 소진되었습니다"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "계정이 변경되었습니다. 다음 확인 때 사용량을 새로 고칩니다"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "%s에 연결할 수 없습니다"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "한도 상태: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "멤버 크레딧이 소진되었습니다"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "멤버 사용 한도에 도달했습니다"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "저장된 API 키가 없습니다. 설정에서 추가하세요."
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "엔드포인트 URL이 설정되지 않았습니다"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "실행 중인 키링 서비스가 없습니다"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "할당량 구간이 반환되지 않았습니다"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "%s CLI를 열고 로그인하세요"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "속도 제한에 도달했습니다"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "선택한 한도는 이 계정에서 사용할 수 없습니다"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "%2$s(으)로 %1$s에 로그인하세요"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "지출 한도에 도달했습니다"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "이 키 헤더 설정으로는 API 키를 보낼 수 없습니다"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr "이 컴퓨터가 아니면 엔드포인트 URL은 HTTPS를 사용해야 합니다"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "엔드포인트 응답이 필드 매핑과 맞지 않습니다"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "서비스가 API 키를 거부했습니다"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "이 계정은 %s을(를) 사용할 수 없습니다"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "이 계정에서는 사용할 수 없습니다"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "API 키를 읽으려면 로그인 키링의 잠금을 해제하세요"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "%1$s CLI를 %2$s 이상 버전으로 업데이트하세요"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "사용량이 오래되었습니다"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "워크스페이스 크레딧이 소진되었습니다"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "워크스페이스 사용 한도에 도달했습니다"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s이(가) %2$s 후 만료"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s. %2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: %2$s 남음"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: %2$s 사용"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$s일 %2$s시간"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$s시간 %2$s분"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$s분 %2$s초"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d일"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d시간"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "%s 한도가 얼마 남지 않음"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "%s 수동 초기화가 곧 만료됩니다"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "%s 수동 초기화가 사용되지 않았습니다"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "%s 사용량 한도가 초기화되었습니다"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "%s 사용량이 사용되지 않은 채 초기화됩니다"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "%s 사용"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s분"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%s분"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "계정을 사용할 수 없음"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "API 키 추가…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "허용량: %2$s 중 %1$s 남음"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "허용량: %s 남음"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "현재 속도라면 초기화 시점에 약 %s이(가) 남습니다"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "현재 속도라면 초기화 때까지 충분합니다"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "현재 속도라면 %s 후 소진됩니다"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "자동 사용이 “%1$s”을(를) 만료 전에 시도했습니다. %2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "잔액: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "계정과 사용량 확인 중…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "크레딧"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "사용 가능한 크레딧 있음"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "크레딧: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "크레딧: 무제한"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "만료됨"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "%1$s 후 만료(%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "%s 후 만료"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "추가 사용량"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "추가 사용량 꺼짐"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "추가 사용량 켜짐"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "추가 사용량: %2$s 중 %1$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "추가 사용량: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "추가 사용량: %s(상한 없음)"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "%s 설치…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "키 한도: %2$s 중 %1$s 남음"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "키 사용량: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "%d일 전에 업데이트됨"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "%d시간 전에 업데이트됨"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "%d분 전에 업데이트됨"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "1분 이내에 업데이트됨"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "수동 초기화(%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "수동 초기화"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "수동 초기화: %1$d · 다음 만료까지 %2$s"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "수동 초기화: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "%s에 가장 많이 사용"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "사용 가능한 크레딧 없음"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "사용할 수 있는 수동 초기화가 없습니다."
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "지금은 초기화할 수 있는 사용량 한도가 없습니다."
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "최근 7일간 사용 없음"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "로그인되지 않음"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "설정 열기…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "요금제: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "기본 구간"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "할당량"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "새로 고침 후 초기화 예정"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "초기화 시각을 알 수 없음"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "%1$s 후 초기화(%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "%s 후 초기화"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "보조 구간"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "설정 필요"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr "계정이 확인되지 않았습니다. 한도가 표시되면 다시 시도하세요."
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr "확장 기능이 디스크에 쓸 수 없어 초기화를 요청하지 않았습니다."
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "요청에 실패했습니다."
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "지원되지 않는 로그인"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "%s 업데이트…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "사용량"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "주간"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "“%s”이(가) 사용되었습니다"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "“%s”이(가) 만료 전에 자동으로 사용되었습니다"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "알 수 없으면 0"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "계정"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "베타, 미검증"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "취소"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "중국 (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "선택…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "설정 디렉터리"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "제어 문자는 보낼 수 없습니다"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "기본값"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "엔드포인트"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "설치 안내"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "국제 (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "계정 설정과 API 키가 삭제됩니다"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr "계정 설정이 삭제됩니다. 명령줄 도구의 로그인은 유지됩니다."
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"응답에서 값을 가리키는 JSON 포인터입니다(예: /usage/percent). 설정하면 백분율"
+"을 사용하고, 없으면 사용량과 한도를 사용합니다."
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "키 헤더"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Kimi Code의 사용량 엔드포인트는 문서화되어 있지 않아 응답 형식을 검증하지 못"
+"했습니다. 다른 베타 제공자는 API 문서를 바탕으로 만들었으며 검증되지 않았습니"
+"다. 문제가 있으면 알려 주세요."
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "한도"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "아래로 이동"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "위로 이동"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "이름"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "선택 사항, 위의 헤더로 전송됨"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "순서"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "백분율"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "백분율 기준"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "JSON 엔드포인트에서 사용량을 읽습니다"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "수동 초기화가 만료되기 전에 자동으로 사용"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "새로 고침 간격(초)"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "지역"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "남은 양"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "제거"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "%s을(를) 제거할까요?"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "계정 제거…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "초기화"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "초기화 시각"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "응답"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "자동 사용량 확인 간격(초), 최소 %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "상단 바에 표시"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "로그인"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "/로 시작하고, 이름에서 ~는 ~0, /는 ~1로 쓰세요"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "키 앞의 텍스트"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "상단 바에 계정이 이 순서로 표시됩니다"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "사용량 페이지"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "https 주소를 사용하세요"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "https 또는 이 컴퓨터로의 http 사용"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "영문자, 숫자, !#$%&'*+-.^_`|~ 만 사용하세요"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "기본 디렉터리 사용"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "사용량"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "사용한 양"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"마지막 1시간에 확인 없이 수동 초기화를 사용합니다. 계정의 사용량 한도가 자동"
+"으로 초기화됩니다."
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "키링에 저장된 API 키를 사용합니다"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "Codex CLI로 로그인한 ChatGPT 계정을 사용합니다"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Claude Code로 로그인한 Claude 구독을 사용합니다"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "Antigravity CLI(agy)로 로그인한 Google 계정을 사용합니다"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "키를 만든 곳"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "구간 길이(분)"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "API 키"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "계정 추가"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "이미 추가됨, 이 CLI는 로그인이 하나뿐입니다"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "베타"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "명령줄 로그인"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "기타"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "키링에 저장된 API 키로 사용량을 읽습니다"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "제공자의 명령줄 도구 로그인을 사용합니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "키가 키링에 저장되어 있습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "API 키"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: %s의 API 키"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "키는 URL의 서비스에 속하므로 먼저 URL을 적용하세요"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "키링 확인 중…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "공백이나 제어 문자 없이 키를 입력하세요"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "API 키 받기"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "새 키"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "저장된 키 없음"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "%s에 저장된 키 없음"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr "계정 설정을 저장할 수 없어 키가 저장되지 않았습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "키링을 읽을 수 없습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "키링에서 키를 제거할 수 없습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "키링에 키를 저장할 수 없습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "키링 프롬프트가 닫혀 키가 제거되지 않았습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "키링 프롬프트가 닫혀 키가 저장되지 않았습니다"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "이 URL"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "동작"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "유예 시간(초)"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"마지막 값을 오래된 것으로 표시하기 전에 일시적 오류를 숨깁니다. 0이면 유예 없"
+"음"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "메뉴"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "메뉴 및 동작"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"사용량을 ~/.local/state에 기록하고 차트로 표시합니다. 끄면 기록이 삭제됩니다"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "초기화 시각 표시"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "사용 기록 표시"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "긴 카운트다운 옆에 시각을 표시합니다"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "남은 양 %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "남은 양 %1$s–%2$s의 색상 선택"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "남은 양 %1$s–%2$s의 16진수 색상"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "#RRGGBB 형식의 16진수 색상"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "이 범위의 수준 색상을 설정합니다"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "설정 디렉터리 선택"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: 수동 초기화가 48시간 이내에 만료될 때"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "초기화 전 시간"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "한도 얼마 남지 않음"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "수동 초기화"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "알림 기준(%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "알림"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "수동 초기화가 만료되기 전에 알림"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "한도가 얼마 남지 않으면 알림"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr "사용량 구간마다 한 번, 상단 바에 표시된 한도 기준"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "알림을 보낼 남은 비율"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "사용량이 남기 전에 알림"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "초기화 이 시간 전부터 알림"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "초기화 시점에 이만큼 이상 남을 때 알림"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "미사용 사용량"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "미사용 비율(%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "현재 속도라면 초기화 시점에 사용량이 남을 때"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s, 꺼짐"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "계정"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "계정 추가…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "일반"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "끔"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr "이전 API 키를 키링에서 삭제하지 못해 계정을 추가하지 못했습니다"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "사용 가능한 계정 슬롯이 없어 계정을 추가하지 못했습니다"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"계정을 추가하지 못했습니다. 같은 유형의 다른 계정이 기본 로그인을 사용하므로 "
+"새 계정에는 별도의 설정 디렉터리가 필요합니다"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr "API 키를 키링에서 삭제할 수 없어 계정을 제거하지 못했습니다"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"같은 유형의 다른 계정이 이미 이 디렉터리에서 로그인하므로 디렉터리를 사용하"
+"지 않았습니다"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "사용 안 함"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "키보드 단축키"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr ""
+"첫 번째 계정의 메뉴를 엽니다. 왼쪽과 오른쪽 키로 다른 계정으로 이동합니다"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Ctrl, Alt 또는 Super가 포함된 키 조합을 누르거나, Backspace를 눌러 단축키를 "
+"제거하세요"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "단축키 설정"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr ""
+"사용자 지정 레이블에는 %s을(를) 넣을 수 있습니다. 중괄호 자체는 {{ 또는 }}로 "
+"쓰세요."
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "막대나 점 위의 로고 크기를 조정합니다"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "모양"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "영역"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "남은 허용량의 10% 범위마다 색상을 지정하세요"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "막대 위치"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "아래"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "가운데"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "막대와 점의 색상 방식을 선택합니다"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "로고를 기준으로 막대가 나타날 위치를 선택합니다"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "색 구성표"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "색상형"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr "GNOME Shell과 다른 확장 기능의 항목을 포함해 영역의 모든 항목을 셉니다"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "사용자 지정"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "사용자 지정 색상"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "사용자 지정 레이블"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "사용자 지정"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "로고 아래에 수준 점을 한 개에서 네 개까지 표시합니다"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "제공자 로고를 표시합니다"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr "표시된 한도를 배터리 모양 수준 막대로 표시합니다"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr "레이블과 모든 요소를 숨기면 상단 바에서 인디케이터가 사라집니다"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "레이블"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "왼쪽"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "왼쪽"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "수준 색상"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "로고 크기(%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "없음"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "인디케이터가 들어갈 상단 바의 부분"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "백분율과 초기화 카운트다운"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "한도를 사용할수록 백분율이 0%에서 올라갑니다"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "위치"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "영역 내 위치"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "초기화 카운트다운"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "오른쪽"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "오른쪽"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "막대 표시"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "점 표시"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "로고 표시"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "남은 양 대신 사용량 표시"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "기호형"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"기호형은 Shell 전경색을, 색상형은 성공 색상을 사용하며, 둘 다 20% 이하에서는 "
+"경고 색상을 사용합니다. 사용자 지정은 아래 범위를 사용합니다."
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "텍스트"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "상단 바"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "알 수 없는 자리 표시자: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "사용자 지정 엔드포인트"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "오류 세부 정보"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "수동 초기화…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "설정"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "사용량 페이지"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "최근 7일간 사용량"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"다음 수동 초기화를 사용하여 현재 사용량 한도를 초기화합니다. 되돌릴 수 없습니"
+"다."
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr ""
+"“%s”을(를) 사용하여 현재 사용량 한도를 초기화합니다. 되돌릴 수 없습니다."
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "초기화 사용"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "수동 초기화를 사용할까요?"
+
+#~ msgid "Checking…"
+#~ msgstr "확인 중…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "이 URL의 호스트에 저장된 키 없음"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "%s 후 새로 고침"
+
+#~ msgid "Refreshing…"
+#~ msgstr "새로 고치는 중…"

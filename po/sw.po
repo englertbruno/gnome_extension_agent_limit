@@ -1,0 +1,1501 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Swahili translation of gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-25 18:36+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: Swahili\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "%s CLI haikupatikana"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "%s CLI haikurudisha migao ya modeli"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "Taarifa za akaunti ya %s hazipatikani"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "Akaunti ya %s imesimamishwa"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s haikujibu"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s haipatikani kwa muda"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "Muda wa kuingia kwa %s umeisha; fungua CLI yake ili kuingia upya"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "Mchakato wa %s ulisimama bila kutarajiwa"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s ilirudisha jibu batili"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s haikurudisha data ya matumizi"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "Ukaguzi wa matumizi ya %s umezuiwa kwa muda na kikomo cha kasi"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "Matumizi ya %s hayapatikani"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "Vikomo vya matumizi ya %s havipatikani kwa kuingia huku"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "Kikomo cha kipindi kimoja cha matumizi kimefikiwa"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "Akaunti imebadilika; matumizi yataonyeshwa upya katika ukaguzi ujao"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "Haiwezi kuunganisha na %s"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "Hali ya kikomo: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "Krediti za mwanachama zimekwisha"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "Kikomo cha matumizi cha mwanachama kimefikiwa"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "Hakuna ufunguo wa API uliohifadhiwa. Ongeza mmoja katika Mipangilio."
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "Hakuna URL ya sehemu ya mwisho iliyowekwa"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "Hakuna huduma ya pete ya funguo inayoendeshwa"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "Hakuna vipindi vya mgao vilivyorudishwa"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "Fungua %s CLI na uingie"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "Kikomo cha kasi kimefikiwa"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "Kikomo kilichochaguliwa hakipatikani kwa akaunti hii"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "Ingia kwenye %1$s ukitumia %2$s"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "Kikomo cha gharama kimefikiwa"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr ""
+"Ufunguo wa API hauwezi kutumwa kwa mipangilio hii ya kichwa cha ufunguo"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr ""
+"URL ya sehemu ya mwisho lazima itumie HTTPS isipokuwa iwe kwenye kompyuta hii"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "Jibu la sehemu ya mwisho halilingani na upangaji wa nyuga"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "Huduma ilikataa ufunguo wa API"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "Akaunti hii haistahili %s"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "Haipatikani kwa akaunti hii"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "Fungua pete ya funguo ya kuingia ili kusoma ufunguo wa API"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "Sasisha %1$s CLI hadi toleo %2$s au jipya zaidi"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "Matumizi yamepitwa na wakati"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "Krediti za eneo la kazi zimekwisha"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "Kikomo cha matumizi cha eneo la kazi kimefikiwa"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "Muda wa %1$s unaisha baada ya %2$s"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s. %2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: %2$s imebaki"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: %2$s imetumika"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$s siku %2$s saa"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$s saa %2$s dk"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$s dk %2$s sek"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "Siku %d"
+msgstr[1] "Siku %d"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "Saa %d"
+msgstr[1] "Saa %d"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "Kikomo cha %s kinakaribia kuisha"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "Muda wa uwekaji upya wa mkono wa %s unaisha hivi karibuni"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "Uwekaji upya wa mkono wa %s haukutumika"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "Vikomo vya matumizi vya %s vimewekwa upya"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "Matumizi ya %s yatawekwa upya bila kutumika"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "%s imetumika"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "Dakika %s"
+msgstr[1] "Dakika %s"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%s dk"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "Akaunti haipatikani"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "Ongeza Ufunguo wa API…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "Kiasi kinachoruhusiwa: %1$s kati ya %2$s kimebaki"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "Kiasi kinachoruhusiwa: %s kimebaki"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "Kwa kasi ya sasa, takriban %s kitabaki wakati wa kuweka upya"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "Kwa kasi ya sasa, kitadumu hadi kuwekwa upya"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "Kwa kasi ya sasa, kitaisha baada ya %s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr ""
+"Matumizi ya kiotomatiki yalijaribu “%1$s” kabla muda wake haujaisha. %2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "Salio: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "Inakagua akaunti na matumizi…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "Krediti"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "Krediti zinapatikana"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "Krediti: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "Krediti: bila kikomo"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "Muda umeisha"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "Muda unaisha baada ya %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "Muda unaisha baada ya %s"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "Matumizi ya ziada"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "Matumizi ya ziada yamezimwa"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "Matumizi ya ziada yamewashwa"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "Matumizi ya ziada: %1$s kati ya %2$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "Matumizi ya ziada: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "Matumizi ya ziada: %s (bila kikomo)"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "Sakinisha %s…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "Kikomo cha ufunguo: %1$s kati ya %2$s kimebaki"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "Matumizi ya ufunguo: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "Ilisasishwa mara ya mwisho siku %d iliyopita"
+msgstr[1] "Ilisasishwa mara ya mwisho siku %d zilizopita"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "Ilisasishwa mara ya mwisho saa %d iliyopita"
+msgstr[1] "Ilisasishwa mara ya mwisho saa %d zilizopita"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "Ilisasishwa mara ya mwisho dakika %d iliyopita"
+msgstr[1] "Ilisasishwa mara ya mwisho dakika %d zilizopita"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "Ilisasishwa mara ya mwisho chini ya dakika moja iliyopita"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "Uwekaji upya wa mkono (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "Uwekaji upya wa mkono"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "Uwekaji upya wa mkono: %1$d · muda wa unaofuata unaisha baada ya %2$s"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "Uwekaji upya wa mkono: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "Matumizi mengi zaidi: %s"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "Hakuna krediti zinazopatikana"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "Hakuna uwekaji upya wa mkono unaopatikana."
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "Hakuna kikomo cha matumizi kinachoweza kuwekwa upya sasa."
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "Hakuna matumizi katika siku saba zilizopita"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "Hujaingia"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "Fungua Mipangilio…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "Mpango: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "Kipindi cha msingi"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "Mgao"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "Uwekaji upya unasubiri kuonyeshwa upya"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "Wakati wa kuweka upya haupatikani"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "Inawekwa upya baada ya %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "Inawekwa upya baada ya %s"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "Kipindi cha pili"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "Usanidi unahitajika"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr "Akaunti haijathibitishwa. Jaribu tena vikomo vyake vikishaonyeshwa."
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr ""
+"Kiendelezi hakikuweza kuandika kwenye diski, kwa hivyo uwekaji upya "
+"haukuombwa."
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "Ombi halikufaulu."
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "Kuingia hakutumiki"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "Sasisha %s…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "Matumizi"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "Kila wiki"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "“%s” ilitumika"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "“%s” ilitumika kiotomatiki kabla muda wake haujaisha"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "0 isipojulikana"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "Akaunti"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "Beta, haijajaribiwa"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "Ghairi"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "Uchina (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "Chagua…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "Saraka ya usanidi"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "Herufi za udhibiti haziwezi kutumwa"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "Chaguomsingi"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "Sehemu ya mwisho"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "Mwongozo wa usakinishaji"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "Kimataifa (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "Mipangilio yake na ufunguo wake wa API vitafutwa"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr "Mipangilio yake itafutwa. Kuingia kwa zana ya mstari wa amri kutabaki."
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"Viashiria vya JSON kwa thamani zilizo kwenye jibu, kama /usage/percent. "
+"Asilimia hutumika ikiwekwa, vinginevyo kiasi kilichotumika na kikomo."
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "Kichwa cha ufunguo"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Sehemu ya mwisho ya matumizi ya Kimi Code haina nyaraka, kwa hivyo muundo wa "
+"jibu lake haujathibitishwa. Watoa huduma wengine wa beta wamejengwa kutoka "
+"kwa nyaraka zao za API na hawajajaribiwa. Tafadhali ripoti matatizo."
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "Kikomo"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "Shusha Chini"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "Pandisha Juu"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "Jina"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "Si lazima; hutumwa katika kichwa kilicho juu"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "Mfuatano"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "Asilimia"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "Asilimia huhesabu"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "Husoma matumizi kutoka sehemu ya mwisho ya JSON"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "Tumia uwekaji upya wa mkono kiotomatiki kabla muda wake haujaisha"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "Muda kati ya kuonyesha upya (sekunde)"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "Kanda"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "Iliyobaki"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "Ondoa"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "Ondoa %s?"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "Ondoa Akaunti…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "Weka upya"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "Wakati wa kuweka upya"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "Jibu"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "Sekunde kati ya ukaguzi wa kiotomatiki wa matumizi; kima cha chini %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "Onyesha kwenye upau wa juu"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "Kuingia"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "Anza na /, na uandike ~0 badala ya ~ na ~1 badala ya / katika majina"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "Maandishi kabla ya ufunguo"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "Upau wa juu unaonyesha akaunti kwa mfuatano huu"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "Ukurasa wa matumizi"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "Tumia anwani ya https"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "Tumia https, au http kwa kompyuta hii"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "Tumia herufi, tarakimu na !#$%&'*+-.^_`|~ pekee"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "Tumia saraka chaguomsingi"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "Iliyotumika"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "Kiasi kilichotumika"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"Hutumia uwekaji upya wa mkono katika saa yake ya mwisho bila kuuliza. Hii "
+"huweka upya vikomo vya matumizi vya akaunti bila usimamizi."
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "Hutumia ufunguo wa API uliohifadhiwa kwenye pete ya funguo"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "Hutumia akaunti ya ChatGPT iliyoingia kupitia Codex CLI"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Hutumia usajili wa Claude ulioingia kupitia Claude Code"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "Hutumia akaunti ya Google iliyoingia kupitia Antigravity CLI (agy)"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "Mahali ufunguo ulipoundwa"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "Urefu wa kipindi (dakika)"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "Funguo za API"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "Ongeza Akaunti"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "Tayari imeongezwa; CLI yake ina akaunti moja ya kuingia"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "Beta"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "Kuingia kwa Mstari wa Amri"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "Nyingine"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "Husoma matumizi kwa ufunguo wa API uliohifadhiwa kwenye pete ya funguo"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "Hutumia kuingia kwa zana ya mstari wa amri ya mtoa huduma"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "Ufunguo umehifadhiwa kwenye pete ya funguo"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "Ufunguo wa API"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: ufunguo wa API wa %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "Tekeleza URL kwanza, kwa sababu ufunguo ni wa huduma ya URL hiyo"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "Inakagua pete ya funguo…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "Weka ufunguo bila nafasi wala herufi za udhibiti"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "Pata ufunguo wa API"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "Ufunguo mpya"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "Hakuna ufunguo uliohifadhiwa"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "Hakuna ufunguo uliohifadhiwa kwa %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr ""
+"Mipangilio ya akaunti haikuweza kuhifadhiwa, kwa hivyo ufunguo haukuhifadhiwa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "Pete ya funguo haikuweza kusomwa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "Pete ya funguo haikuweza kuondoa ufunguo"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "Pete ya funguo haikuweza kuhifadhi ufunguo"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr ""
+"Kidirisha cha pete ya funguo kilifungwa, kwa hivyo ufunguo haukuondolewa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr ""
+"Kidirisha cha pete ya funguo kilifungwa, kwa hivyo ufunguo haukuhifadhiwa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "URL hii"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "Tabia"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "Muda wa uvumilivu (sekunde)"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"Ficha hitilafu za muda kabla ya kuweka alama kwamba usomaji wa mwisho "
+"umepitwa na wakati; 0 huzima uvumilivu"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "Menyu"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "Menyu na Tabia"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"Rekodi matumizi katika ~/.local/state na uyaonyeshe kwenye chati; kuzima "
+"hiki kunafuta rekodi"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "Onyesha saa ya kuweka upya"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "Onyesha historia ya matumizi"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "Onyesha wakati wa siku kando ya hesabu ndefu za muda uliosalia"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "%1$s–%2$s imebaki"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "Chagua rangi kwa %1$s–%2$s iliyobaki"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "Rangi ya hex kwa %1$s–%2$s iliyobaki"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "Rangi ya hex katika muundo wa #RRGGBB"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "Weka rangi ya kiwango kwa masafa haya"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "Chagua Saraka ya Usanidi"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: uwekaji upya wa mkono unapoisha muda ndani ya saa 48"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "Saa kabla ya kuweka upya"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "Kikomo Kinakaribia Kuisha"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "Uwekaji Upya wa Mkono"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "Kizingiti cha arifa (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "Arifa"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "Arifu kabla muda wa uwekaji upya wa mkono haujaisha"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "Arifu kikomo kinapokaribia kuisha"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr ""
+"Mara moja kwa kila kipindi cha matumizi, kwa kikomo kinachoonyeshwa kwenye "
+"upau wa juu"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "Asilimia iliyobaki inayoanzisha arifa"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "Nikumbushe kabla matumizi hayajapotea bila kutumika"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "Kumbusha si mapema zaidi ya muda huu kabla ya kuweka upya"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "Kumbusha ikiwa angalau kiasi hiki kingebaki wakati wa kuweka upya"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "Matumizi Yasiyotumika"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "Sehemu isiyotumika (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "Kasi ya sasa ikiacha matumizi bila kutumika wakati wa kuweka upya"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s, imezimwa"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "Akaunti"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "Ongeza Akaunti…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "Jumla"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "Imezimwa"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Akaunti haikuongezwa, kwa sababu ufunguo wa zamani wa API haukuweza kufutwa "
+"kutoka kwenye pete ya funguo"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "Akaunti haikuongezwa, kwa sababu hakuna nafasi ya akaunti iliyobaki"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"Akaunti haikuongezwa: akaunti nyingine ya aina hii inatumia kuingia "
+"chaguomsingi, kwa hivyo mpya inahitaji saraka yake ya usanidi"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Akaunti haikuondolewa, kwa sababu ufunguo wake wa API haukuweza kufutwa "
+"kutoka kwenye pete ya funguo"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"Saraka haikutumika, kwa sababu akaunti nyingine ya aina hii tayari inaingia "
+"kutoka humo"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "Imezimwa"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "Njia ya mkato ya kibodi"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr ""
+"Hufungua menyu ya akaunti ya kwanza; Kushoto na Kulia huhamia kwa nyingine"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Bonyeza mchanganyiko wa vitufe wenye Ctrl, Alt au Super, au Backspace ili "
+"kuondoa njia ya mkato"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "Weka Njia ya Mkato"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr "Lebo maalum inaweza kuwa na %s. Andika {{ au }} kwa mabano halisi."
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "Rekebisha nembo iliyo juu ya upau au vitone"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "Mwonekano"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "Eneo"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "Weka rangi kwa kila masafa ya 10% ya kiasi kilichobaki"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "Nafasi ya upau"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "Chini"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "Katikati"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "Chagua jinsi upau na vitone vinavyotiwa rangi"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "Chagua mahali upau unapoonekana ukilinganishwa na nembo"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "Mpango wa rangi"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "Kwa rangi"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr ""
+"Huhesabu kila kipengee cha eneo, pamoja na vile vya GNOME Shell na "
+"viendelezi vingine"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "Maalum"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "Rangi Maalum"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "Lebo maalum"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "Iliyobinafsishwa"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "Onyesha vitone vya kiwango, kimoja hadi vinne, chini ya nembo"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "Onyesha nembo ya mtoa huduma"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr ""
+"Onyesha kikomo kinachoonyeshwa kama upau wa kiwango wenye umbo la betri"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr ""
+"Kuficha lebo na kila sehemu huondoa viashiria kutoka kwenye upau wa juu"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "Lebo"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "Kushoto"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "Kushoto"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "Rangi za Kiwango"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "Ukubwa wa nembo (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "Hakuna"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "Sehemu ya upau wa juu inayoshikilia viashiria"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "Asilimia na muda hadi kuwekwa upya"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "Asilimia huongezeka kuanzia 0% kadiri kikomo kinavyotumika"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "Nafasi"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "Nafasi katika eneo"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "Muda hadi kuwekwa upya"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "Kulia"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "Kulia"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "Onyesha upau"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "Onyesha vitone"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "Onyesha nembo"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "Onyesha iliyotumika badala ya iliyobaki"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "Kiishara"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"Kiishara hufuata rangi ya mbele ya Shell, Kwa rangi hutumia rangi ya "
+"mafanikio, na zote mbili hutumia rangi ya onyo kwa 20% au chini. "
+"Iliyobinafsishwa hutumia masafa yaliyo hapa chini."
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "Maandishi"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "Upau wa Juu"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "Kishikilia nafasi kisichojulikana: %s"
+msgstr[1] "Vishikilia nafasi visivyojulikana: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "Sehemu ya mwisho maalum"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "Maelezo ya hitilafu"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "Uwekaji Upya wa Mkono…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "Onyesha upya"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "Mipangilio"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "Ukurasa wa Matumizi"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "Matumizi katika siku saba zilizopita"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"Hii hutumia uwekaji upya wa mkono unaofuata na huweka upya vikomo vyako vya "
+"matumizi vya sasa. Haiwezi kutenduliwa."
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr ""
+"Hii hutumia “%s” na huweka upya vikomo vyako vya matumizi vya sasa. Haiwezi "
+"kutenduliwa."
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "Tumia Uwekaji Upya"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "Tumia uwekaji upya wa mkono?"
+
+#~ msgid "Checking…"
+#~ msgstr "Inakagua…"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "Onyesha upya baada ya %s"
+
+#~ msgid "Refreshing…"
+#~ msgstr "Inaonyesha upya…"

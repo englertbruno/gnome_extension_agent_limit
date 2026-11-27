@@ -1,0 +1,1462 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 12:00+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "未找到 %s CLI"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "%s CLI 未返回任何模型配额"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "无法获取 %s 账户信息"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "%s 账户已被暂停"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s 没有响应"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s 暂时不可用"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "%s 登录已过期；请打开其 CLI 以续期"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "%s 进程意外停止"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s 返回了无效的响应"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s 未返回用量数据"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "%s 的用量检查暂时受到速率限制"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "无法获取 %s 的用量"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "此登录无法获取 %s 的用量限制"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "某个用量周期已用尽"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "账户已更改；将在下次检查时刷新用量"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "无法连接到 %s"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "限额状态：%s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "成员额度已用尽"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "已达到成员用量上限"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "未存储 API 密钥。请在设置中添加。"
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "未设置端点 URL"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "没有运行中的密钥环服务"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "未返回任何配额周期"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "打开 %s CLI 并登录"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "已达到速率限制"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "所选限额对此账户不可用"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "使用 %2$s 登录 %1$s"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "已达到支出上限"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "无法使用这些密钥标头设置发送 API 密钥"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr "端点 URL 必须使用 HTTPS，除非位于本机"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "端点的响应与字段映射不匹配"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "服务拒绝了该 API 密钥"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "此账户不符合使用 %s 的条件"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "此账户不可用"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "请解锁登录密钥环以读取 API 密钥"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "请将 %1$s CLI 更新到 %2$s 或更高版本"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "用量数据已过时"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "工作区额度已用尽"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "已达到工作区用量上限"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s%2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s 将在 %2$s后过期"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s，%2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s。%2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s：%2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s：剩余 %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s：已用 %2$s"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$s天%2$s时"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$s时%2$s分"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$s分%2$s秒"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d 天"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d 小时"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "%s 的限额即将用完"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "%s 的手动重置即将过期"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "%s 的手动重置未被使用"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "%s 的用量限制已重置"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "%s 的用量将在未使用的情况下重置"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "已用 %s"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s 分钟"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%s分"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "账户不可用"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "添加 API 密钥…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "额度：剩余 %1$s / %2$s"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "额度：剩余 %s"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "按当前速度，重置时大约还会剩余 %s"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "按当前速度，可支撑到重置"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "按当前速度，将在 %s后用尽"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "自动使用在“%1$s”过期前尝试使用它。%2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "余额：%s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "正在检查账户和用量…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "额度"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "有可用额度"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "额度：%s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "额度：无限"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "已过期"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "%1$s后过期（%2$s）"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "%s后过期"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "额外用量"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "额外用量已禁用"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "额外用量已启用"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "额外用量：%1$s / %2$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "额外用量：%s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "额外用量：%s（无上限）"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "安装 %s…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "密钥限额：剩余 %1$s / %2$s"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "密钥用量：%s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "%d 天前更新"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "%d 小时前更新"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "%d 分钟前更新"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "不到一分钟前更新"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "手动重置 (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "手动重置"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "手动重置：%1$d · 下一个将在 %2$s后过期"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "手动重置：%d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "%s 使用最多"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "没有可用额度"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "没有可用的手动重置。"
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "目前没有可重置的用量限制。"
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "最近七天没有使用"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "未登录"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "打开设置…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "套餐：%s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "主周期"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "配额"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "重置待刷新"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "重置时间不可用"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "%1$s后重置（%2$s）"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "%s后重置"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "次周期"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "需要设置"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr "账户尚未确认。请在显示其限额后重试。"
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr "扩展无法写入磁盘，因此未请求重置。"
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "请求失败。"
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "不支持的登录"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "更新 %s…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "用量"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "每周"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "“%s”已被使用"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "“%s”在过期前已被自动使用"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "未知时填 0"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "账户"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "测试版，未经测试"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "取消"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "中国 (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "选择…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "配置目录"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "无法发送控制字符"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "默认"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "端点"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "安装指南"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "国际 (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "其设置和 API 密钥将被删除"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr "其设置将被删除。命令行工具的登录会保留。"
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"指向响应中各值的 JSON 指针，例如 /usage/percent。设置了百分比时使用百分比，否"
+"则使用已用量和限额。"
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "密钥标头"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Kimi Code 的用量端点没有文档，因此其响应格式未经验证。其他测试版提供商是根据"
+"其 API 文档构建的，未经测试。请报告问题。"
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "限额"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "下移"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "上移"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "名称"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "可选；在上方的标头中发送"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "顺序"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "百分比"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "百分比表示"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "从 JSON 端点读取用量"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "在手动重置过期前自动使用"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "刷新间隔（秒）"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "区域"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "剩余"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "移除"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "移除 %s？"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "移除账户…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "重置"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "重置时间"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "响应"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "自动检查用量的间隔秒数；最小为 %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "在顶栏中显示"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "登录"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "以 / 开头，名称中的 ~ 写作 ~0，/ 写作 ~1"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "密钥之前的文本"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "顶栏按此顺序显示账户"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "用量页面"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "请使用 https 地址"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "使用 https，或指向本机的 http"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "仅可使用字母、数字和 !#$%&'*+-.^_`|~"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "使用默认目录"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "已用"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "已用量"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"在最后一小时内不经询问自动使用一次手动重置。这会在无人值守的情况下重置账户的"
+"用量限制。"
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "使用存储在密钥环中的 API 密钥"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "使用通过 Codex CLI 登录的 ChatGPT 账户"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "使用通过 Claude Code 登录的 Claude 订阅"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "使用通过 Antigravity CLI (agy) 登录的 Google 账户"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "密钥的创建位置"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "周期时长（分钟）"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "API 密钥"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "添加账户"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "已添加；其 CLI 只有一个登录"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "测试版"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "命令行登录"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "其他"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "使用存储在密钥环中的 API 密钥读取用量"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "使用提供商命令行工具的登录"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "密钥环中已存储密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "API 密钥"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator：%s 的 API 密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "请先应用 URL，因为密钥属于该 URL 的服务"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "正在检查密钥环…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "请输入不含空格或控制字符的密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "获取 API 密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "新密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "未存储密钥"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "未存储 %s 的密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr "无法保存账户设置，因此密钥未被存储"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "无法读取密钥环"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "密钥环无法移除该密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "密钥环无法存储该密钥"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "密钥环提示已被关闭，因此密钥未被移除"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "密钥环提示已被关闭，因此密钥未被存储"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "此 URL"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "行为"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "宽限期（秒）"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr "在将最近的读数标记为过时之前隐藏临时故障；0 表示禁用宽限期"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "菜单"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "菜单与行为"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr "将用量记录到 ~/.local/state 并绘制图表；关闭此选项会删除记录"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "显示重置时钟时间"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "显示用量历史"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "在较长的倒计时旁显示当天时间"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "剩余 %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "为剩余 %1$s–%2$s 选择颜色"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "剩余 %1$s–%2$s 的十六进制颜色"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "#RRGGBB 格式的十六进制颜色"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "设置此范围的级别颜色"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "选择配置目录"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex：手动重置将在 48 小时内过期时"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "重置前的小时数"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "限额即将用完"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "手动重置"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "通知阈值 (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "通知"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "手动重置过期前通知"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "限额即将用完时通知"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr "每个用量周期一次，针对顶栏中显示的限额"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "触发通知的剩余百分比"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "在用量被浪费前提醒我"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "不早于重置前此时间提醒"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "重置时预计至少剩余这么多时提醒"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "未使用的用量"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "未使用比例 (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "按当前速度在重置时会有用量剩余时"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s，已关闭"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "账户"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "添加账户…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "常规"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "关闭"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr "未添加账户，因为无法从密钥环中删除旧的 API 密钥"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "未添加账户，因为没有空闲的账户位置"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"未添加账户：同类型的另一个账户使用默认登录，因此新账户需要自己的配置目录"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr "未移除账户，因为无法从密钥环中删除其 API 密钥"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr "未使用该目录，因为同类型的另一个账户已从中登录"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "已禁用"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "键盘快捷键"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr "打开第一个账户的菜单；左、右方向键切换到其他账户"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr "按下包含 Ctrl、Alt 或 Super 的组合键，或按 Backspace 移除快捷键"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "设置快捷键"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr "自定义标签可以包含 %s。要输入字面的花括号，请写 {{ 或 }}。"
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "调整位于条或圆点上方的徽标"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "外观"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "区域"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "为剩余额度的每个 10% 范围指定一种颜色"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "条的位置"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "下方"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "中"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "选择条和圆点的着色方式"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "选择条相对于徽标的位置"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "配色方案"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "彩色"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr "统计该区域的所有项目，包括 GNOME Shell 和其他扩展的项目"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "自定义"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "自定义颜色"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "自定义标签"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "自定义"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "在徽标下方显示一至四个级别圆点"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "显示提供商徽标"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr "将所示限额显示为电池形状的电量条"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr "隐藏标签和所有部分会使指示器从顶栏中消失"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "标签"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "左侧"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "左"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "级别颜色"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "徽标大小 (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "无"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "顶栏中放置指示器的部分"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "百分比和重置倒计时"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "随着限额被使用，百分比从 0% 起递增"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "位置"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "在区域中的位置"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "重置倒计时"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "右侧"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "右"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "显示条"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "显示圆点"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "显示徽标"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "显示已用而非剩余"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "单色"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"“单色”跟随 Shell 的前景色，“彩色”使用成功色，二者在剩余 20% 或更少时都使用警"
+"告色。“自定义”使用下方的范围。"
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "文本"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "顶栏"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "未知占位符：%s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "自定义端点"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "错误详情"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "手动重置…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "刷新"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "设置"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "用量页面"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "最近七天的使用情况"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr "这将使用下一次手动重置并重置您当前的用量限制。此操作无法撤销。"
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr "这将使用“%s”并重置您当前的用量限制。此操作无法撤销。"
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "使用重置"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "使用手动重置？"
+
+#~ msgid "Checking…"
+#~ msgstr "正在检查…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "未存储此 URL 所属主机的密钥"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "%s后刷新"
+
+#~ msgid "Refreshing…"
+#~ msgstr "正在刷新…"

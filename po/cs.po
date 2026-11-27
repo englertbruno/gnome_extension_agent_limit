@@ -1,0 +1,1499 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 12:00+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: cs\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "CLI %s nebylo nalezeno"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "CLI %s nevrátilo žádné kvóty modelů"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "Informace o účtu %s nejsou k dispozici"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "Účet %s je pozastaven"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s neodpovědělo"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s je dočasně nedostupné"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "Přihlášení k %s vypršelo; obnovte ho otevřením jeho CLI"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "Proces %s se neočekávaně zastavil"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s vrátilo neplatnou odpověď"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s nevrátilo žádné údaje o využití"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "Kontroly využití %s jsou dočasně omezeny"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "Využití %s není k dispozici"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "Limity využití %s nejsou pro toto přihlášení k dispozici"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "Okno využití je vyčerpáno"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "Účet se změnil; využití se obnoví při další kontrole"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "Nelze se připojit k %s"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "Stav limitu: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "Kredity člena jsou vyčerpány"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "Dosažen limit využití člena"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "Není uložen žádný klíč API. Přidejte ho v Nastavení."
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "Není nastavena žádná adresa URL koncového bodu"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "Neběží žádná služba správce klíčů"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "Nebyla vrácena žádná okna kvót"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "Otevřete CLI %s a přihlaste se"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "Dosažen limit četnosti"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "Vybraný limit není pro tento účet dostupný"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "Přihlaste se k %1$s pomocí %2$s"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "Dosažen limit útraty"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "Klíč API nelze odeslat s těmito nastaveními hlavičky klíče"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr ""
+"Adresa URL koncového bodu musí používat HTTPS, pokud není na tomto počítači"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "Odpověď koncového bodu neodpovídá mapování polí"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "Služba klíč API odmítla"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "Tento účet nemá nárok na %s"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "Pro tento účet nedostupné"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "Odemkněte přihlašovací správce klíčů, aby se klíč API mohl přečíst"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "Aktualizujte CLI %1$s na verzi %2$s nebo novější"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "Využití je zastaralé"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "Kredity pracovního prostoru jsou vyčerpány"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "Dosažen limit využití pracovního prostoru"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s vyprší za %2$s"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s. %2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: zbývá %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: %2$s využito"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$sd %2$sh"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$sh %2$sm"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$sm %2$ss"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d denní"
+msgstr[1] "%d denní"
+msgstr[2] "%d denní"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d hodinové"
+msgstr[1] "%d hodinové"
+msgstr[2] "%d hodinové"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "Limit %s dochází"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "Ruční reset %s brzy vyprší"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "Ruční reset %s nebyl uplatněn"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "Limity využití %s byly resetovány"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "Využití %s se resetuje nevyužité"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "%s využito"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s minutové"
+msgstr[1] "%s minutové"
+msgstr[2] "%s minutové"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%sm"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "Účet není dostupný"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "Přidat klíč API…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "Příděl: zbývá %1$s z %2$s"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "Příděl: zbývá %s"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "Při současném tempu zbude při resetu asi %s"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "Při současném tempu vystačí do resetu"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "Při současném tempu dojde za %s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "Automatické uplatnění vyzkoušelo „%1$s“, než vypršelo. %2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "Zůstatek: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "Kontroluje se účet a využití…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "Kredit"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "Kredity jsou k dispozici"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "Kredity: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "Kredity: neomezené"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "Vypršelo"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "Vyprší za %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "Vyprší za %s"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "Dodatečné využití"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "Dodatečné využití je zakázáno"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "Dodatečné využití je povoleno"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "Dodatečné využití: %1$s z %2$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "Dodatečné využití: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "Dodatečné využití: %s (bez stropu)"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "Nainstalovat %s…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "Limit klíče: zbývá %1$s z %2$s"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "Využití klíče: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "Naposledy aktualizováno před %d dnem"
+msgstr[1] "Naposledy aktualizováno před %d dny"
+msgstr[2] "Naposledy aktualizováno před %d dny"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "Naposledy aktualizováno před %d hodinou"
+msgstr[1] "Naposledy aktualizováno před %d hodinami"
+msgstr[2] "Naposledy aktualizováno před %d hodinami"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "Naposledy aktualizováno před %d minutou"
+msgstr[1] "Naposledy aktualizováno před %d minutami"
+msgstr[2] "Naposledy aktualizováno před %d minutami"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "Naposledy aktualizováno před méně než minutou"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "Ruční resety (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "Ruční reset"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "Ruční resety: %1$d · další vyprší za %2$s"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "Ruční resety: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "Nejvíce využito: %s"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "Žádné kredity nejsou k dispozici"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "Není k dispozici žádný ruční reset."
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "Nyní nelze resetovat žádný limit využití."
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "Žádné využití za posledních sedm dní"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "Nepřihlášeno"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "Otevřít Nastavení…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "Tarif: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "Primární okno"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "Kvóta"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "Reset čeká na obnovení"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "Čas resetu není k dispozici"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "Reset za %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "Reset za %s"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "Sekundární okno"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "Vyžaduje nastavení"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr "Účet není potvrzen. Zkuste to znovu, až se zobrazí jeho limity."
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr "Rozšíření nemohlo zapisovat na disk, takže o reset nepožádalo."
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "Požadavek selhal."
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "Nepodporované přihlášení"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "Aktualizovat %s…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "Využití"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "Týdenní"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "„%s“ bylo uplatněno"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "„%s“ bylo automaticky uplatněno, než vypršelo"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "0, pokud není známa"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "Účet"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "Beta, netestováno"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "Čína (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "Vybrat…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "Konfigurační složka"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "Řídicí znaky nelze odeslat"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "Výchozí"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "Koncový bod"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "Průvodce instalací"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "Mezinárodní (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "Jeho nastavení a klíč API se smažou"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr ""
+"Jeho nastavení se smažou. Přihlášení nástroje příkazového řádku zůstane."
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"Ukazatele JSON na hodnoty v odpovědi, například /usage/percent. Je-li "
+"nastaveno procento, použije se; jinak využité množství a limit."
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "Hlavička klíče"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Koncový bod využití Kimi Code není zdokumentován, takže formát jeho odpovědi "
+"není ověřen. Ostatní beta poskytovatelé jsou vytvořeni podle své dokumentace "
+"API a nebyli testováni. Hlaste prosím problémy."
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "Limit"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "Posunout dolů"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "Posunout nahoru"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "Název"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "Volitelné; odesílá se v hlavičce výše"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "Pořadí"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "Procento"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "Procenta udávají"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "Čte využití z koncového bodu JSON"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "Automaticky uplatnit ruční resety, než vyprší"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "Interval obnovení (sekundy)"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "Oblast"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "Zbývá"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "Odebrat"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "Odebrat %s?"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "Odebrat účet…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "Resetovat"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "Čas resetu"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "Odpověď"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "Sekundy mezi automatickými kontrolami využití; minimum %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "Zobrazit na horní liště"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "Přihlášení"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "Začněte znakem / a v názvech pište ~0 za ~ a ~1 za /"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "Text před klíčem"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "Horní lišta zobrazuje účty v tomto pořadí"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "Stránka využití"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "Použijte adresu https"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "Použijte https, nebo http na tento počítač"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "Používejte pouze písmena, číslice a !#$%&'*+-.^_`|~"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "Použít výchozí složku"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "Využito"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "Využité množství"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"V poslední hodině platnosti uplatní ruční reset bez dotazu. Tím se bez "
+"dohledu resetují limity využití účtu."
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "Používá klíč API uložený ve správci klíčů"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "Používá účet ChatGPT přihlášený přes Codex CLI"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Používá předplatné Claude přihlášené přes Claude Code"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "Používá účet Google přihlášený přes Antigravity CLI (agy)"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "Kde byl klíč vytvořen"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "Délka okna (minuty)"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "Klíče API"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "Přidat účet"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "Již přidáno; jeho CLI má jedno přihlášení"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "Beta"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "Přihlášení příkazového řádku"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "Ostatní"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "Čte využití pomocí klíče API uloženého ve správci klíčů"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "Používá přihlášení nástroje příkazového řádku poskytovatele"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "Klíč je uložen ve správci klíčů"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "Klíč API"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: klíč API pro %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "Nejprve použijte adresu URL, protože klíč patří službě na dané adrese"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "Kontroluje se správce klíčů…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "Zadejte klíč bez mezer a řídicích znaků"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "Získat klíč API"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "Nový klíč"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "Žádný klíč není uložen"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "Pro %s není uložen žádný klíč"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr "Nastavení účtu nebylo možné uložit, klíč tedy nebyl uložen"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "Správce klíčů nelze přečíst"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "Správce klíčů nemohl klíč odebrat"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "Správce klíčů nemohl klíč uložit"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "Výzva správce klíčů byla zavřena, klíč tedy nebyl odebrán"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "Výzva správce klíčů byla zavřena, klíč tedy nebyl uložen"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "tuto adresu URL"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "Chování"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "Odklad (sekundy)"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"Skrýt dočasné chyby, než se poslední údaj označí za zastaralý; 0 odklad vypne"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "Nabídka"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "Nabídka a chování"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"Zaznamenává využití do ~/.local/state a zobrazuje graf; vypnutím se záznam "
+"smaže"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "Zobrazit hodinový čas resetu"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "Zobrazit historii využití"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "Zobrazit denní dobu vedle dlouhých odpočtů"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "Zbývá %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "Zvolit barvu pro zbývajících %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "Šestnáctková barva pro zbývajících %1$s–%2$s"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "Šestnáctková barva ve formátu #RRGGBB"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "Nastavit barvu úrovně pro tento rozsah"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "Vybrat konfigurační složku"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: když ruční reset vyprší do 48 hodin"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "Hodin před resetem"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "Docházející limit"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "Ruční resety"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "Práh oznámení (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "Upozornit, než vyprší ruční reset"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "Upozornit, když limit dochází"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr "Jednou za okno využití, pro limit zobrazený na horní liště"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "Zbývající procento, které oznámení spustí"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "Připomenout, než se využití nevyužije"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "Nepřipomínat dříve než tolik před resetem"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "Připomenout, když by při resetu zbývalo alespoň tolik"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "Nevyužité využití"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "Nevyužitý podíl (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "Když by při současném tempu zůstalo při resetu využití nevyužité"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s, vypnuto"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "Účty"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "Přidat účet…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "Obecné"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "Vypnuto"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Účet nebyl přidán, protože se nepodařilo smazat starý klíč API ze správce "
+"klíčů"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "Účet nebyl přidán, protože nezbývá žádné volné místo pro účet"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"Účet nebyl přidán: jiný účet tohoto typu používá výchozí přihlášení, takže "
+"nový potřebuje vlastní konfigurační složku"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Účet nebyl odebrán, protože se jeho klíč API nepodařilo odstranit ze správce "
+"klíčů"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"Složka nebyla použita, protože se z ní již přihlašuje jiný účet tohoto typu"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "Klávesová zkratka"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr "Otevře nabídku prvního účtu; Vlevo a Vpravo přepínají na ostatní"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Stiskněte kombinaci kláves s Ctrl, Alt nebo Super, nebo Backspace pro "
+"odstranění zkratky"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "Nastavit zkratku"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr ""
+"Vlastní popisek může obsahovat %s. Pro doslovnou složenou závorku napište "
+"{{ nebo }}."
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "Upravit logo nad pruhem nebo tečkami"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "Oblast"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "Přiřaďte barvu každému 10% rozsahu zbývajícího limitu"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "Poloha pruhu"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "Pod"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "Uprostřed"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "Zvolte, jak se pruh a tečky zbarvují"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "Zvolte, kde se pruh zobrazí vzhledem k logu"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "Barevné schéma"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "Barevné"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr ""
+"Počítá všechny položky oblasti, včetně položek GNOME Shellu a dalších "
+"rozšíření"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "Vlastní"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "Vlastní barvy"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "Vlastní popisek"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "Přizpůsobené"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "Zobrazit jednu až čtyři tečky úrovně pod logem"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "Zobrazit logo poskytovatele"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr "Zobrazit zobrazený limit jako pruh úrovně ve tvaru baterie"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr "Skrytím popisku a všech částí se indikátory z horní lišty odstraní"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "Popisek"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "Vlevo"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "Vlevo"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "Barvy úrovně"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "Velikost loga (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "Žádný"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "Část horní lišty, která obsahuje indikátory"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "Procento a odpočet do resetu"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "Procenta rostou od 0 %, jak se limit spotřebovává"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "Poloha"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "Poloha v oblasti"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "Odpočet do resetu"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "Vpravo"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "Vpravo"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "Zobrazit pruh"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "Zobrazit tečky"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "Zobrazit logo"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "Zobrazit využité místo zbývajícího"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "Symbolické"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"Symbolické sleduje barvu popředí Shellu, Barevné používá barvu úspěchu a obě "
+"používají barvu varování při 20 % nebo méně. Přizpůsobené používá rozsahy "
+"níže."
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "Text"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "Horní lišta"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "Neznámý zástupný symbol: %s"
+msgstr[1] "Neznámé zástupné symboly: %s"
+msgstr[2] "Neznámé zástupné symboly: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "Vlastní koncový bod"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "Podrobnosti o chybě"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "Ruční reset…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "Obnovit"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "Nastavení"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "Stránka využití"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "Využití za posledních sedm dní"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"Tím se uplatní další ruční reset a resetují se vaše aktuální limity využití. "
+"Nelze vrátit zpět."
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr ""
+"Tím se uplatní „%s“ a resetují se vaše aktuální limity využití. Nelze vrátit "
+"zpět."
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "Uplatnit reset"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "Uplatnit ruční reset?"
+
+#~ msgid "Checking…"
+#~ msgstr "Kontroluje se…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "Pro hostitele této adresy URL není uložen žádný klíč"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "Obnovit za %s"
+
+#~ msgid "Refreshing…"
+#~ msgstr "Obnovuje se…"

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-FileCopyrightText: 2026 Bruno Englert -->
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<schemalist>
+  <!-- One account. It has no path of its own: the main schema holds sixteen
+       of them as account-0 … account-15 below its path. -->
+  <schema id="org.gnome.shell.extensions.gnome-extension-codex-limit-indicator.account">
+    <key name="type" type="s">
+      <choices>
+        <choice value="codex"/>
+        <choice value="claude"/>
+        <choice value="antigravity"/>
+        <choice value="openrouter"/>
+        <choice value="deepseek"/>
+        <choice value="ollama"/>
+        <choice value="kimi"/>
+        <choice value="custom"/>
+      </choices>
+      <default>'codex'</default>
+      <summary>Provider type</summary>
+      <description>Set when the account is created and not changed afterwards.</description>
+    </key>
+    <key name="name" type="s">
+      <default>''</default>
+      <summary>Account name</summary>
+      <description>Empty shows the provider's name.</description>
+    </key>
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Show the account in the top bar</summary>
+    </key>
+    <key name="instance-id" type="s">
+      <default>''</default>
+      <summary>Random ID of this account</summary>
+      <description>
+        Set when preferences add or show the account, or when the extension starts running a listed account that
+        has none. The saved usage state and the API key in the keyring belong to it, so that a reused slot never
+        restores a removed account's reading, history or key. While it is empty, no state is saved and no API key
+        is stored or read.
+      </description>
+    </key>
+    <key name="config-directory" type="s">
+      <default>''</default>
+      <summary>Configuration directory of the command-line tool</summary>
+      <description>An absolute path that selects the CLI's login, passed as CODEX_HOME or CLAUDE_CONFIG_DIR. Empty uses the CLI's default.</description>
+    </key>
+    <key name="refresh-interval" type="u">
+      <range min="30" max="86400"/>
+      <default>30</default>
+      <summary>Refresh interval in seconds</summary>
+      <description>Time between automatic usage checks. Shorter values than the provider's minimum are raised to it.</description>
+    </key>
+    <key name="limit-id" type="s">
+      <default>''</default>
+      <summary>Usage bucket shown in the panel</summary>
+      <description>The provider's bucket ID. Empty selects the provider's default bucket.</description>
+    </key>
+    <key name="panel-window" type="u">
+      <range min="0" max="1"/>
+      <default>0</default>
+      <summary>Usage window shown in the panel</summary>
+      <description>0 prefers weekly, falling back to the longest returned window. 1 uses the shortest returned window.</description>
+    </key>
+    <key name="api-key-revision" type="u">
+      <default>0</default>
+      <summary>Changes whenever the account's API key is stored or removed</summary>
+    </key>
+    <key name="kimi-region" type="s">
+      <choices>
+        <choice value="china"/>
+        <choice value="international"/>
+      </choices>
+      <default>'china'</default>
+      <summary>Kimi Code service region</summary>
+      <description>china uses api.kimi.com and international uses api.kimi.ai.</description>
+    </key>
+    <key name="endpoint-url" type="s">
+      <default>''</default>
+      <summary>Custom endpoint URL</summary>
+    </key>
+    <key name="auth-header" type="s">
+      <default>'Authorization'</default>
+      <summary>Header that carries the custom endpoint's key</summary>
+    </key>
+    <key name="auth-prefix" type="s">
+      <default>'Bearer '</default>
+      <summary>Text sent before the custom endpoint's key</summary>
+    </key>
+    <key name="percent-pointer" type="s">
+      <default>''</default>
+      <summary>JSON Pointer to a percentage in the custom endpoint's response</summary>
+    </key>
+    <key name="percent-meaning" type="s">
+      <choices>
+        <choice value="used"/>
+        <choice value="remaining"/>
+      </choices>
+      <default>'used'</default>
+      <summary>Whether the custom endpoint's percentage is used or remaining</summary>
+    </key>
+    <key name="used-pointer" type="s">
+      <default>''</default>
+      <summary>JSON Pointer to the used amount in the custom endpoint's response</summary>
+    </key>
+    <key name="limit-pointer" type="s">
+      <default>''</default>
+      <summary>JSON Pointer to the limit in the custom endpoint's response</summary>
+    </key>
+    <key name="reset-pointer" type="s">
+      <default>''</default>
+      <summary>JSON Pointer to the reset time in the custom endpoint's response</summary>
+    </key>
+    <key name="window-minutes" type="u">
+      <range min="0" max="527040"/>
+      <default>0</default>
+      <summary>Length of the custom endpoint's usage window in minutes</summary>
+      <description>0 means unknown.</description>
+    </key>
+    <key name="usage-page-url" type="s">
+      <default>''</default>
+      <summary>Web page that shows the custom endpoint's usage</summary>
+    </key>
+    <key name="auto-redeem" type="b">
+      <default>false</default>
+      <summary>Redeem manual resets automatically before they expire</summary>
+    </key>
+  </schema>
+</schemalist>

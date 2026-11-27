@@ -1,0 +1,1488 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Indonesian translation of gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 12:00+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "CLI %s tidak ditemukan"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "CLI %s tidak mengembalikan kuota model"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "Informasi akun %s tidak tersedia"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "Akun %s ditangguhkan"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s tidak merespons"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s tidak tersedia untuk sementara"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "Login %s kedaluwarsa; buka CLI-nya untuk memperbaruinya"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "Proses %s berhenti secara tak terduga"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s mengembalikan respons yang tidak valid"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s tidak mengembalikan data penggunaan"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "Pemeriksaan penggunaan %s dibatasi lajunya untuk sementara"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "Penggunaan %s tidak tersedia"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "Batas penggunaan %s tidak tersedia untuk login ini"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "Sebuah jendela penggunaan habis"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "Akun berubah; penggunaan akan disegarkan pada pemeriksaan berikutnya"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "Tidak dapat terhubung ke %s"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "Status batas: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "Kredit anggota habis"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "Batas penggunaan anggota tercapai"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "Tidak ada kunci API tersimpan. Tambahkan di Pengaturan."
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "URL titik akhir belum diatur"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "Tidak ada layanan keyring yang berjalan"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "Tidak ada jendela kuota yang dikembalikan"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "Buka CLI %s dan masuk"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "Batas laju tercapai"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "Batas yang dipilih tidak tersedia untuk akun ini"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "Masuk ke %1$s menggunakan %2$s"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "Batas pengeluaran tercapai"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "Kunci API tidak dapat dikirim dengan pengaturan header kunci ini"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr "URL titik akhir harus menggunakan HTTPS kecuali berada di komputer ini"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "Balasan titik akhir tidak cocok dengan pemetaan bidang"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "Layanan menolak kunci API"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "Akun ini tidak memenuhi syarat untuk %s"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "Tidak tersedia untuk akun ini"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "Buka kunci keyring login untuk membaca kunci API"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "Perbarui CLI %1$s ke versi %2$s atau lebih baru"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "Penggunaan sudah kedaluwarsa"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "Kredit ruang kerja habis"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "Batas penggunaan ruang kerja tercapai"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s kedaluwarsa dalam %2$s"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s. %2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: %2$s tersisa"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: %2$s terpakai"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$sh %2$sj"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$sj %2$sm"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$sm %2$sd"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d hari"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d jam"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "Batas %s hampir habis"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "Reset manual %s segera kedaluwarsa"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "Reset manual %s tidak digunakan"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "Batas penggunaan %s direset"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "Penggunaan %s akan direset tanpa terpakai"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "%s terpakai"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s menit"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%sm"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "Akun tidak tersedia"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "Tambah Kunci API…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "Jatah: %1$s dari %2$s tersisa"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "Jatah: %s tersisa"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "Dengan laju saat ini, sekitar %s akan tersisa pada saat reset"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "Dengan laju saat ini, cukup sampai reset"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "Dengan laju saat ini, habis dalam %s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "Tebus otomatis mencoba “%1$s” sebelum kedaluwarsa. %2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "Saldo: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "Memeriksa akun dan penggunaan…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "Kredit"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "Kredit tersedia"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "Kredit: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "Kredit: tanpa batas"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "Kedaluwarsa"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "Kedaluwarsa dalam %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "Kedaluwarsa dalam %s"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "Penggunaan ekstra"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "Penggunaan ekstra dinonaktifkan"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "Penggunaan ekstra diaktifkan"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "Penggunaan ekstra: %1$s dari %2$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "Penggunaan ekstra: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "Penggunaan ekstra: %s (tanpa batas)"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "Pasang %s…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "Batas kunci: %1$s dari %2$s tersisa"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "Penggunaan kunci: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "Terakhir diperbarui %d hari lalu"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "Terakhir diperbarui %d jam lalu"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "Terakhir diperbarui %d menit lalu"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "Terakhir diperbarui kurang dari semenit lalu"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "Reset manual (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "Reset manual"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "Reset manual: %1$d · berikutnya kedaluwarsa dalam %2$s"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "Reset manual: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "Penggunaan terbanyak pada %s"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "Tidak ada kredit tersedia"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "Tidak ada reset manual yang tersedia."
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "Tidak ada batas penggunaan yang dapat direset sekarang."
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "Tidak ada penggunaan dalam tujuh hari terakhir"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "Belum masuk"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "Buka Pengaturan…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "Paket: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "Jendela utama"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "Kuota"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "Reset menunggu penyegaran"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "Waktu reset tidak tersedia"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "Reset dalam %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "Reset dalam %s"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "Jendela sekunder"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "Penyiapan diperlukan"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr "Akun belum dikonfirmasi. Coba lagi setelah batasnya ditampilkan."
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr "Ekstensi tidak dapat menulis ke disk, sehingga reset tidak diminta."
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "Permintaan gagal."
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "Login tidak didukung"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "Perbarui %s…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "Penggunaan"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "Mingguan"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "“%s” telah digunakan"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "“%s” digunakan secara otomatis sebelum kedaluwarsa"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "0 jika tidak diketahui"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "Akun"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "Beta, belum diuji"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "Batal"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "Tiongkok (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "Pilih…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "Direktori konfigurasi"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "Karakter kontrol tidak dapat dikirim"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "Bawaan"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "Titik akhir"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "Panduan instalasi"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "Internasional (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "Pengaturan dan kunci API-nya dihapus"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr "Pengaturannya dihapus. Login alat baris perintah tetap ada."
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"Penunjuk JSON ke nilai dalam balasan, seperti /usage/percent. Persentase "
+"digunakan jika diatur, jika tidak jumlah terpakai dan batasnya."
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "Header kunci"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Titik akhir penggunaan Kimi Code tidak didokumentasikan, sehingga format "
+"responsnya belum diverifikasi. Penyedia beta lainnya dibuat berdasarkan "
+"dokumentasi API mereka dan belum diuji. Mohon laporkan masalah."
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "Batas"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "Turunkan"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "Naikkan"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "Nama"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "Opsional; dikirim di header di atas"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "Urutan"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "Persentase"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "Persentase dihitung"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "Membaca penggunaan dari titik akhir JSON"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "Tebus reset manual secara otomatis sebelum kedaluwarsa"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "Interval penyegaran (detik)"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "Wilayah"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "Tersisa"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "Hapus"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "Hapus %s?"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "Hapus Akun…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "Atur Ulang"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "Waktu reset"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "Respons"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "Detik antara pemeriksaan penggunaan otomatis; minimum %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "Tampilkan di bilah atas"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "Masuk"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "Mulai dengan /, dan tulis ~0 untuk ~ serta ~1 untuk / dalam nama"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "Teks sebelum kunci"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "Bilah atas menampilkan akun dalam urutan ini"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "Halaman penggunaan"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "Gunakan alamat https"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "Gunakan https, atau http ke komputer ini"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "Gunakan hanya huruf, angka, dan !#$%&'*+-.^_`|~"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "Gunakan direktori bawaan"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "Terpakai"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "Jumlah terpakai"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"Menggunakan reset manual pada jam terakhirnya tanpa bertanya. Ini mereset "
+"batas penggunaan akun tanpa pengawasan."
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "Menggunakan kunci API yang disimpan di keyring"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "Menggunakan akun ChatGPT yang masuk melalui Codex CLI"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Menggunakan langganan Claude yang masuk melalui Claude Code"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "Menggunakan akun Google yang masuk melalui Antigravity CLI (agy)"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "Tempat kunci dibuat"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "Panjang jendela (menit)"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "Kunci API"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "Tambah Akun"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "Sudah ditambahkan; CLI-nya memiliki satu login"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "Beta"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "Login Baris Perintah"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "Lainnya"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "Membaca penggunaan dengan kunci API yang disimpan di keyring"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "Menggunakan login alat baris perintah penyedia"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "Sebuah kunci disimpan di keyring"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "Kunci API"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: kunci API untuk %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "Terapkan URL terlebih dahulu, karena kunci milik layanan URL tersebut"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "Memeriksa keyring…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "Masukkan kunci tanpa spasi atau karakter kontrol"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "Dapatkan kunci API"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "Kunci baru"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "Tidak ada kunci tersimpan"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "Tidak ada kunci tersimpan untuk %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr "Pengaturan akun tidak dapat disimpan, sehingga kunci tidak disimpan"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "Keyring tidak dapat dibaca"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "Keyring tidak dapat menghapus kunci"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "Keyring tidak dapat menyimpan kunci"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "Prompt keyring ditutup, sehingga kunci tidak dihapus"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "Prompt keyring ditutup, sehingga kunci tidak disimpan"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "URL ini"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "Perilaku"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "Masa tenggang (detik)"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"Sembunyikan kegagalan sementara sebelum menandai pembacaan terakhir "
+"kedaluwarsa; 0 menonaktifkan masa tenggang"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "Menu"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "Menu dan Perilaku"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"Catat penggunaan di ~/.local/state dan tampilkan dalam grafik; mematikannya "
+"akan menghapus catatan"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "Tampilkan jam reset"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "Tampilkan riwayat penggunaan"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "Tampilkan waktu hari di samping hitung mundur yang panjang"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "Tersisa %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "Pilih warna untuk tersisa %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "Warna heksadesimal untuk tersisa %1$s–%2$s"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "Warna heksadesimal dalam format #RRGGBB"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "Atur warna tingkat untuk rentang ini"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "Pilih Direktori Konfigurasi"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: saat reset manual kedaluwarsa dalam 48 jam"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "Jam sebelum reset"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "Batas Hampir Habis"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "Reset Manual"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "Ambang notifikasi (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "Notifikasi"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "Beri tahu sebelum reset manual kedaluwarsa"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "Beri tahu saat batas hampir habis"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr ""
+"Sekali per jendela penggunaan, untuk batas yang ditampilkan di bilah atas"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "Persentase tersisa yang memicu notifikasi"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "Ingatkan saya sebelum penggunaan tidak terpakai"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "Jangan ingatkan lebih awal dari ini sebelum reset"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "Ingatkan jika setidaknya sebanyak ini akan tersisa pada saat reset"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "Penggunaan Tidak Terpakai"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "Bagian tidak terpakai (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr ""
+"Saat laju saat ini akan menyisakan penggunaan tidak terpakai pada saat reset"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s, mati"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "Akun"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "Tambah Akun…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "Umum"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "Mati"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Akun tidak ditambahkan, karena kunci API lama tidak dapat dihapus dari "
+"keyring"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "Akun tidak ditambahkan, karena tidak ada slot akun yang tersisa"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"Akun tidak ditambahkan: akun lain dengan jenis ini menggunakan login bawaan, "
+"sehingga akun baru memerlukan direktori konfigurasi sendiri"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Akun tidak dihapus karena kunci API-nya tidak dapat dihapus dari keyring"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"Direktori tidak digunakan, karena akun lain dengan jenis ini sudah masuk "
+"dari direktori tersebut"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "Dimatikan"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "Pintasan papan ketik"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr "Membuka menu akun pertama; Kiri dan Kanan berpindah ke akun lain"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Tekan kombinasi tombol dengan Ctrl, Alt, atau Super, atau Backspace untuk "
+"menghapus pintasan"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "Atur Pintasan"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr ""
+"Label kustom dapat berisi %s. Tulis {{ atau }} untuk kurung kurawal harfiah."
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "Atur logo di atas bilah atau titik"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "Area"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "Tetapkan warna untuk setiap rentang 10% dari jatah yang tersisa"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "Posisi bilah"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "Bawah"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "Tengah"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "Pilih cara bilah dan titik diwarnai"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "Pilih posisi bilah relatif terhadap logo"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "Skema warna"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "Berwarna"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr ""
+"Menghitung setiap item di area, termasuk milik GNOME Shell dan ekstensi lain"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "Kustom"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "Warna Kustom"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "Label kustom"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "Kustom"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "Tampilkan satu sampai empat titik tingkat di bawah logo"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "Tampilkan logo penyedia"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr ""
+"Tampilkan batas yang ditampilkan sebagai bilah tingkat berbentuk baterai"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr ""
+"Menyembunyikan label dan setiap bagian akan menghapus indikator dari bilah "
+"atas"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "Label"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "Kiri"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "Kiri"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "Warna Tingkat"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "Ukuran logo (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "Tidak ada"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "Bagian bilah atas yang memuat indikator"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "Persentase dan hitung mundur reset"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "Persentase naik dari 0% seiring batas digunakan"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "Posisi"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "Posisi di area"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "Hitung mundur reset"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "Kanan"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "Kanan"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "Tampilkan bilah"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "Tampilkan titik"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "Tampilkan logo"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "Tampilkan yang terpakai, bukan yang tersisa"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "Simbolis"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"Simbolis mengikuti warna latar depan Shell, Berwarna menggunakan warna "
+"keberhasilan, dan keduanya menggunakan warna peringatan pada 20% atau "
+"kurang. Kustom menggunakan rentang di bawah."
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "Teks"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "Bilah Atas"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "Placeholder tidak dikenal: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "Titik akhir kustom"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "Detail kesalahan"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "Reset Manual…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "Segarkan"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "Halaman Penggunaan"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "Penggunaan dalam tujuh hari terakhir"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"Ini menggunakan reset manual berikutnya dan mereset batas penggunaan Anda "
+"saat ini. Tindakan ini tidak dapat dibatalkan."
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr ""
+"Ini menggunakan “%s” dan mereset batas penggunaan Anda saat ini. Tindakan "
+"ini tidak dapat dibatalkan."
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "Gunakan Reset"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "Gunakan reset manual?"
+
+#~ msgid "Checking…"
+#~ msgstr "Memeriksa…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "Tidak ada kunci tersimpan untuk host URL ini"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "Segarkan dalam %s"
+
+#~ msgid "Refreshing…"
+#~ msgstr "Menyegarkan…"

@@ -1,0 +1,104 @@
+/* SPDX-FileCopyrightText: 2026 Bruno Englert
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
+
+.popup-menu.codex-limit-indicator-menu {
+    min-width: 0;
+}
+
+.codex-limit-indicator-menu .codex-heading .popup-separator-menu-item-separator {
+    margin: 0 6px;
+}
+
+.codex-limit-indicator-menu .codex-heading StLabel {
+    max-width: 20em;
+}
+
+.codex-limit-indicator-menu .codex-refresh-button {
+    padding: 0.4em;
+}
+
+.codex-limit-indicator-menu .codex-refresh-spinner {
+    margin: 0.4em;
+}
+
+/* Secondary text is smaller, not grey, as in Shell's own menus. */
+.codex-limit-indicator-menu .codex-account {
+    padding-top: 0;
+    padding-bottom: 6px;
+    font-size: 0.818em;
+}
+
+.codex-limit-indicator-menu .codex-account StLabel {
+    max-width: 36em;
+}
+
+.codex-limit-indicator-menu .codex-information {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 0.818em;
+}
+
+.codex-limit-indicator-menu .codex-status {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    spacing: 8px;
+}
+
+.codex-limit-indicator-menu .codex-limit-option {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.codex-limit-indicator-menu .codex-limit-option-header {
+    spacing: 8px;
+}
+
+.codex-limit-indicator-menu .codex-limit-option-percent {
+    font-weight: bold;
+    font-feature-settings: "tnum";
+}
+
+.codex-limit-indicator-menu .codex-limit-option-bar {
+    margin: 4px 0 3px 0;
+    -barlevel-height: 6px;
+}
+
+.codex-limit-indicator-menu .codex-limit-option-note {
+    font-size: 0.818em;
+    font-feature-settings: "tnum";
+}
+
+.codex-limit-indicator-menu .codex-error-details {
+    max-width: 30em;
+}
+
+/* The chart's title and the chart read as one item. */
+.codex-limit-indicator-menu .codex-history-title {
+    padding-bottom: 0;
+    font-size: 0.818em;
+}
+
+.codex-limit-indicator-menu .codex-history {
+    padding-top: 0;
+}
+
+/* Wide enough for 56 bars with gaps between them. */
+.codex-limit-indicator-menu .codex-history-bars {
+    min-width: 14em;
+    height: 2.5em;
+    margin: 0.25em 0;
+}
+
+.codex-limit-indicator-menu .codex-history-summary {
+    font-size: 0.818em;
+}
+
+#panel .panel-button.codex-limit-indicator {
+    -natural-hpadding: 6px;
+    -minimum-hpadding: 4px;
+}
+
+#panel .panel-button.codex-limit-indicator .system-status-icon {
+    margin: 0;
+}

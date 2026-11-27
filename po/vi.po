@@ -1,0 +1,1483 @@
+# Machine translation, not yet reviewed by a native speaker.
+# Copyright (C) 2026 Bruno Englert
+# This file is distributed under the same license as the gnome-extension-codex-limit-indicator@bruno.englert.gitlab.com package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-codex-limit-"
+"indicator@bruno.englert.gitlab.com\n"
+"Report-Msgid-Bugs-To: https://github.com/englertbruno/"
+"gnome_extension_agent_limit/issues\n"
+"PO-Revision-Date: 2026-11-19 12:00+0100\n"
+"Last-Translator: Machine translation\n"
+"Language-Team: vi\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Review-Status: machine\n"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI not found"
+msgstr "Không tìm thấy %s CLI"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s CLI returned no model quotas"
+msgstr "%s CLI không trả về hạn mức mô hình nào"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account information is unavailable"
+msgstr "Không có thông tin tài khoản %s"
+
+#. Translators: %s is a product name, such as Ollama Cloud.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s account is suspended"
+msgstr "Tài khoản %s đã bị đình chỉ"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s did not respond"
+msgstr "%s không phản hồi"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s is temporarily unavailable"
+msgstr "%s tạm thời không khả dụng"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s login expired; open its CLI to renew it"
+msgstr "Đăng nhập %s đã hết hạn; hãy mở CLI của nó để gia hạn"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s process stopped unexpectedly"
+msgstr "Tiến trình %s đã dừng đột ngột"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned an invalid response"
+msgstr "%s trả về phản hồi không hợp lệ"
+
+#. Translators: %s is a product name, such as DeepSeek.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s returned no usage data"
+msgstr "%s không trả về dữ liệu sử dụng"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage checks are temporarily rate limited"
+msgstr "Các lần kiểm tra mức sử dụng %s tạm thời bị giới hạn tốc độ"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage is unavailable"
+msgstr "Không có mức sử dụng của %s"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "%s usage limits are unavailable for this login"
+msgstr "Không có giới hạn sử dụng của %s cho đăng nhập này"
+
+#: src/accounts/issues.js
+msgid "A usage window is exhausted"
+msgstr "Một chu kỳ sử dụng đã hết"
+
+#: src/accounts/issues.js
+msgid "Account changed; refreshing usage on the next check"
+msgstr "Tài khoản đã thay đổi; sẽ làm mới mức sử dụng ở lần kiểm tra tiếp theo"
+
+#. Translators: %s is a product name, such as Codex, or Custom endpoint.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Cannot connect to %s"
+msgstr "Không thể kết nối tới %s"
+
+#. Translators: %s is a status the service reports, in English.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Limit status: %s"
+msgstr "Trạng thái giới hạn: %s"
+
+#: src/accounts/issues.js
+msgid "Member credits depleted"
+msgstr "Tín dụng của thành viên đã hết"
+
+#: src/accounts/issues.js
+msgid "Member usage limit reached"
+msgstr "Đã đạt giới hạn sử dụng của thành viên"
+
+#: src/accounts/issues.js
+msgid "No API key stored. Add one in Settings."
+msgstr "Chưa lưu khóa API. Hãy thêm trong Cài đặt."
+
+#: src/accounts/issues.js
+msgid "No endpoint URL is set"
+msgstr "Chưa đặt URL điểm cuối"
+
+#: src/accounts/issues.js src/preferences/apiKeyGroup.js
+msgid "No keyring service is running"
+msgstr "Không có dịch vụ chùm khóa nào đang chạy"
+
+#: src/accounts/issues.js
+msgid "No quota windows were returned"
+msgstr "Không có chu kỳ hạn mức nào được trả về"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Open %s CLI and sign in"
+msgstr "Mở %s CLI và đăng nhập"
+
+#: src/accounts/issues.js
+msgid "Rate limit reached"
+msgstr "Đã đạt giới hạn tốc độ"
+
+#: src/accounts/issues.js
+msgid "Selected limit is unavailable for this account"
+msgstr "Giới hạn đã chọn không khả dụng cho tài khoản này"
+
+#. Translators: %1$s is a product name and %2$s a command, such as codex login.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Sign in to %1$s using %2$s"
+msgstr "Đăng nhập %1$s bằng %2$s"
+
+#: src/accounts/issues.js
+msgid "Spending limit reached"
+msgstr "Đã đạt giới hạn chi tiêu"
+
+#: src/accounts/issues.js
+msgid "The API key cannot be sent with these key header settings"
+msgstr "Không thể gửi khóa API với các cài đặt tiêu đề khóa này"
+
+#: src/accounts/issues.js
+msgid "The endpoint URL must use HTTPS unless it is on this computer"
+msgstr "URL điểm cuối phải dùng HTTPS trừ khi nó nằm trên máy tính này"
+
+#: src/accounts/issues.js
+msgid "The endpoint reply does not match the field mapping"
+msgstr "Phản hồi của điểm cuối không khớp với ánh xạ trường"
+
+#: src/accounts/issues.js
+msgid "The service rejected the API key"
+msgstr "Dịch vụ đã từ chối khóa API"
+
+#. Translators: %s is a product name, such as Codex.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "This account is not eligible for %s"
+msgstr "Tài khoản này không đủ điều kiện dùng %s"
+
+#: src/accounts/issues.js
+msgid "Unavailable for this account"
+msgstr "Không khả dụng cho tài khoản này"
+
+#: src/accounts/issues.js
+msgid "Unlock the login keyring to read the API key"
+msgstr "Hãy mở khóa chùm khóa đăng nhập để đọc khóa API"
+
+#. Translators: %1$s is a product name and %2$s a version number.
+#: src/accounts/issues.js
+#, javascript-format
+msgid "Update %1$s CLI to version %2$s or later"
+msgstr "Cập nhật %1$s CLI lên phiên bản %2$s trở lên"
+
+#: src/accounts/issues.js src/ui/limitIndicator.js
+msgid "Usage is stale"
+msgstr "Mức sử dụng đã cũ"
+
+#: src/accounts/issues.js
+msgid "Workspace credits depleted"
+msgstr "Tín dụng của không gian làm việc đã hết"
+
+#: src/accounts/issues.js
+msgid "Workspace usage limit reached"
+msgstr "Đã đạt giới hạn sử dụng của không gian làm việc"
+
+#. Translators: a limit and its window, such as "Spark Weekly".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "limit and window"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s expires in %2$s"
+msgstr "%1$s hết hạn sau %2$s"
+
+#. Translators: two texts joined by a middle dot, such as a limit and its reset: “Weekly: 86% remaining · Resets in 3d 5h”.
+#. Translators: a manual reset in the menu: its name and its expiry, such as “Gift · Expires in 3d 5h”.
+#: src/accounts/presentation.js src/ui/limitIndicator.js
+#, javascript-format
+msgid "%1$s · %2$s"
+msgstr "%1$s · %2$s"
+
+#. Translators: the top bar button's name for screen readers begins with the account and the limit it shows, such as “Work, Weekly”.
+#. Translators: a limit's menu row as screen readers name it: its usage, then its reset, such as “Weekly: 86% remaining, Resets in 3d 5h”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. Translators: the top bar button's name for screen readers: the usage it shows, then the account's status, such as “Work, Weekly: 86% remaining. Usage is stale”.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s. %2$s"
+msgstr "%1$s. %2$s"
+
+#. Translators: %1$s names a limit and %2$s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s remaining"
+msgstr "%1$s: còn lại %2$s"
+
+#. Translators: %1$s names a limit and %2$s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%1$s: %2$s used"
+msgstr "%1$s: đã dùng %2$s"
+
+#. Translators: a countdown until a limit resets. %1$s is days and %2$s is hours, in the top bar with two digits each; d and h abbreviate days and hours. Example: "2d 3h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sd %2$sh"
+msgstr "%1$sd %2$sh"
+
+#. Translators: a countdown until a limit resets. %1$s is hours and %2$s is minutes, in the top bar with two digits each; h and m abbreviate hours and minutes. Example: "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sh %2$sm"
+msgstr "%1$sh %2$sp"
+
+#. Translators: a countdown in the menu until a limit resets. %1$s is minutes and %2$s is seconds; m and s abbreviate minutes and seconds. Example: "29m 5s".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%1$sm %2$ss"
+msgstr "%1$sp %2$ss"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-day".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-day"
+msgid_plural "%d-day"
+msgstr[0] "%d ngày"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "5-hour".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%d-hour"
+msgid_plural "%d-hour"
+msgstr[0] "%d giờ"
+
+#. Translators: notification title when little of the limit shown in the top bar is left. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s limit running low"
+msgstr "Giới hạn của %s sắp hết"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset expires soon"
+msgstr "Lượt đặt lại thủ công của %s sắp hết hạn"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s manual reset not used"
+msgstr "Lượt đặt lại thủ công của %s chưa được dùng"
+
+#. Translators: %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage limits reset"
+msgstr "Giới hạn sử dụng của %s đã được đặt lại"
+
+#. Translators: notification title. %s is an account name, such as Codex or Work.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s usage will reset unused"
+msgstr "Mức sử dụng %s sẽ được đặt lại mà chưa dùng"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s used"
+msgstr "Đã dùng %s"
+
+#. Translators: the length of a usage window, shown as a row label in the menu, such as "15-minute". %s is a number.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "%s-minute"
+msgid_plural "%s-minute"
+msgstr[0] "%s phút"
+
+#. Translators: a countdown until a limit resets. %s is minutes, in the top bar with two digits; m abbreviates minutes. Example: "5m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgctxt "countdown"
+msgid "%sm"
+msgstr "%sp"
+
+#: src/accounts/presentation.js
+msgid "Account unavailable"
+msgstr "Tài khoản không khả dụng"
+
+#: src/accounts/presentation.js
+msgid "Add API Key…"
+msgstr "Thêm khóa API…"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %1$s is what is left and %2$s the total limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %1$s of %2$s left"
+msgstr "Hạn mức: còn %1$s trên %2$s"
+
+#. Translators: Allowance is the amount an API account may still use, such as a credit balance. %s is what is left.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Allowance: %s left"
+msgstr "Hạn mức: còn %s"
+
+#. Translators: %s is a percentage.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, about %s will be left at the reset"
+msgstr "Với tốc độ hiện tại, còn khoảng %s khi đặt lại"
+
+#: src/accounts/presentation.js
+msgid "At the current pace, lasts until the reset"
+msgstr "Với tốc độ hiện tại, đủ dùng đến lúc đặt lại"
+
+#. Translators: %s is a countdown, such as "4h 30m".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "At the current pace, runs out in %s"
+msgstr "Với tốc độ hiện tại, sẽ hết sau %s"
+
+#. Translators: %1$s is the name of a manual reset and %2$s the reason it was not used.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Auto-redeem tried “%1$s” before it expired. %2$s"
+msgstr "Tự động dùng đã thử “%1$s” trước khi hết hạn. %2$s"
+
+#. Translators: %s is an amount of money.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Balance: %s"
+msgstr "Số dư: %s"
+
+#: src/accounts/presentation.js
+msgid "Checking account and usage…"
+msgstr "Đang kiểm tra tài khoản và mức sử dụng…"
+
+#: src/accounts/presentation.js
+msgid "Credit"
+msgstr "Tín dụng"
+
+#: src/accounts/presentation.js
+msgid "Credits available"
+msgstr "Còn tín dụng"
+
+#. Translators: %s is a number of credits.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Credits: %s"
+msgstr "Tín dụng: %s"
+
+#: src/accounts/presentation.js
+msgid "Credits: unlimited"
+msgstr "Tín dụng: không giới hạn"
+
+#: src/accounts/presentation.js
+msgid "Expired"
+msgstr "Đã hết hạn"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Expires in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %1$s (%2$s)"
+msgstr "Hết hạn sau %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Expires in %s"
+msgstr "Hết hạn sau %s"
+
+#: src/accounts/presentation.js
+msgid "Extra usage"
+msgstr "Mức sử dụng bổ sung"
+
+#: src/accounts/presentation.js
+msgid "Extra usage disabled"
+msgstr "Mức sử dụng bổ sung đã tắt"
+
+#: src/accounts/presentation.js
+msgid "Extra usage enabled"
+msgstr "Mức sử dụng bổ sung đã bật"
+
+#. Translators: %1$s is the amount spent and %2$s its monthly cap.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %1$s of %2$s"
+msgstr "Mức sử dụng bổ sung: %1$s trên %2$s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s"
+msgstr "Mức sử dụng bổ sung: %s"
+
+#. Translators: %s is the amount spent.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Extra usage: %s (no cap)"
+msgstr "Mức sử dụng bổ sung: %s (không giới hạn)"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Install %s…"
+msgstr "Cài đặt %s…"
+
+#. Translators: %1$s is the amount left and %2$s the API key's limit.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key limit: %1$s of %2$s left"
+msgstr "Giới hạn khóa: còn %1$s trên %2$s"
+
+#. Translators: %s is the amount spent with the API key.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Key usage: %s"
+msgstr "Mức dùng khóa: %s"
+
+#. Translators: %d is a number of days.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d day ago"
+msgid_plural "Last updated %d days ago"
+msgstr[0] "Cập nhật lần cuối %d ngày trước"
+
+#. Translators: %d is a number of hours.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d hour ago"
+msgid_plural "Last updated %d hours ago"
+msgstr[0] "Cập nhật lần cuối %d giờ trước"
+
+#. Translators: %d is a number of minutes.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Last updated %d minute ago"
+msgid_plural "Last updated %d minutes ago"
+msgstr[0] "Cập nhật lần cuối %d phút trước"
+
+#: src/accounts/presentation.js
+msgid "Last updated less than a minute ago"
+msgstr "Cập nhật lần cuối chưa đầy một phút trước"
+
+#. Translators: a submenu title. %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual Resets (%d)"
+msgstr "Lượt đặt lại thủ công (%d)"
+
+#: src/accounts/presentation.js
+msgid "Manual reset"
+msgstr "Đặt lại thủ công"
+
+#. Translators: %1$d is a number of manual resets and %2$s a countdown.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %1$d · next expires in %2$s"
+msgstr "Lượt đặt lại thủ công: %1$d · lượt tiếp theo hết hạn sau %2$s"
+
+#. Translators: %d is a number of manual resets.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Manual resets: %d"
+msgstr "Lượt đặt lại thủ công: %d"
+
+#. Translators: %s is a weekday and time range, such as "Tue 15:00 – 18:00".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Most use on %s"
+msgstr "Dùng nhiều nhất vào %s"
+
+#: src/accounts/presentation.js
+msgid "No credits available"
+msgstr "Không còn tín dụng"
+
+#: src/accounts/presentation.js
+msgid "No manual reset is available."
+msgstr "Không có lượt đặt lại thủ công nào."
+
+#: src/accounts/presentation.js
+msgid "No usage limit can be reset now."
+msgstr "Hiện không có giới hạn sử dụng nào có thể đặt lại."
+
+#: src/accounts/presentation.js
+msgid "No use in the last seven days"
+msgstr "Không dùng trong bảy ngày qua"
+
+#: src/accounts/presentation.js
+msgid "Not signed in"
+msgstr "Chưa đăng nhập"
+
+#: src/accounts/presentation.js
+msgid "Open Settings…"
+msgstr "Mở Cài đặt…"
+
+#. Translators: %s is a plan name as the service names it, such as Pro.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Plan: %s"
+msgstr "Gói: %s"
+
+#: src/accounts/presentation.js
+msgid "Primary window"
+msgstr "Chu kỳ chính"
+
+#: src/accounts/presentation.js
+msgid "Quota"
+msgstr "Hạn mức"
+
+#: src/accounts/presentation.js
+msgid "Reset pending refresh"
+msgstr "Đặt lại đang chờ làm mới"
+
+#: src/accounts/presentation.js
+msgid "Reset time unavailable"
+msgstr "Không có thời điểm đặt lại"
+
+#. Translators: %1$s is a countdown and %2$s a clock time, such as "Resets in 3d 5h (Thu 09:00)".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %1$s (%2$s)"
+msgstr "Đặt lại sau %1$s (%2$s)"
+
+#. Translators: %s is a countdown, such as "3d 5h".
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Resets in %s"
+msgstr "Đặt lại sau %s"
+
+#: src/accounts/presentation.js
+msgid "Secondary window"
+msgstr "Chu kỳ phụ"
+
+#: src/accounts/presentation.js
+msgid "Setup required"
+msgstr "Cần thiết lập"
+
+#: src/accounts/presentation.js
+msgid "The account is not confirmed. Try again once its limits are shown."
+msgstr ""
+"Tài khoản chưa được xác nhận. Hãy thử lại khi giới hạn của tài khoản được "
+"hiển thị."
+
+#: src/accounts/presentation.js
+msgid "The extension could not write to disk, so the reset was not requested."
+msgstr "Tiện ích mở rộng không ghi được vào ổ đĩa, nên chưa yêu cầu đặt lại."
+
+#: src/accounts/presentation.js
+msgid "The request failed."
+msgstr "Yêu cầu không thành công."
+
+#: src/accounts/presentation.js
+msgid "Unsupported login"
+msgstr "Đăng nhập không được hỗ trợ"
+
+#. Translators: a menu item that opens the install page. %s is a product name, such as Codex.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "Update %s…"
+msgstr "Cập nhật %s…"
+
+#: src/accounts/presentation.js src/preferences/accountPage.js
+msgid "Usage"
+msgstr "Mức sử dụng"
+
+#: src/accounts/presentation.js
+msgid "Weekly"
+msgstr "Hằng tuần"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used"
+msgstr "“%s” đã được dùng"
+
+#. Translators: %s is the name of a manual reset.
+#: src/accounts/presentation.js
+#, javascript-format
+msgid "“%s” was used automatically before it expired"
+msgstr "“%s” đã được tự động dùng trước khi hết hạn"
+
+#: src/preferences/accountPage.js
+msgid "0 when unknown"
+msgstr "0 nếu không rõ"
+
+#: src/preferences/accountPage.js
+msgid "Account"
+msgstr "Tài khoản"
+
+#: src/preferences/accountPage.js
+msgid "Beta, untested"
+msgstr "Beta, chưa kiểm thử"
+
+#: src/preferences/accountPage.js src/preferences/shortcutRow.js
+#: src/ui/redeemDialog.js
+msgid "Cancel"
+msgstr "Hủy"
+
+#: src/preferences/accountPage.js
+msgid "China (api.kimi.com)"
+msgstr "Trung Quốc (api.kimi.com)"
+
+#: src/preferences/accountPage.js
+msgid "Choose…"
+msgstr "Chọn…"
+
+#: src/preferences/accountPage.js
+msgid "Configuration directory"
+msgstr "Thư mục cấu hình"
+
+#: src/preferences/accountPage.js
+msgid "Control characters cannot be sent"
+msgstr "Không thể gửi ký tự điều khiển"
+
+#: src/preferences/accountPage.js
+msgid "Default"
+msgstr "Mặc định"
+
+#: src/preferences/accountPage.js
+msgid "Endpoint"
+msgstr "Điểm cuối"
+
+#: src/preferences/accountPage.js
+msgid "Installation Guide"
+msgstr "Hướng dẫn cài đặt"
+
+#: src/preferences/accountPage.js
+msgid "International (api.kimi.ai)"
+msgstr "Quốc tế (api.kimi.ai)"
+
+#: src/preferences/accountPage.js
+msgid "Its settings and its API key are deleted"
+msgstr "Cài đặt và khóa API của nó sẽ bị xóa"
+
+#: src/preferences/accountPage.js
+msgid "Its settings are deleted. The login of the command-line tool stays."
+msgstr ""
+"Cài đặt của nó sẽ bị xóa. Đăng nhập của công cụ dòng lệnh vẫn được giữ lại."
+
+#: src/preferences/accountPage.js
+msgid ""
+"JSON Pointers to the values in the reply, such as /usage/percent. The "
+"percentage is used when set, otherwise the used amount and the limit."
+msgstr ""
+"JSON Pointer tới các giá trị trong phản hồi, ví dụ /usage/percent. Nếu đặt "
+"phần trăm thì dùng phần trăm, nếu không thì dùng lượng đã dùng và giới hạn."
+
+#: src/preferences/accountPage.js
+msgid "Key header"
+msgstr "Tiêu đề khóa"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Kimi Code’s usage endpoint is undocumented, so its response format is "
+"unverified. Other beta providers are built from their API documentation and "
+"untested. Please report problems."
+msgstr ""
+"Điểm cuối mức sử dụng của Kimi Code không có tài liệu, nên định dạng phản "
+"hồi của nó chưa được xác minh. Các nhà cung cấp beta khác được xây dựng từ "
+"tài liệu API của họ và chưa được kiểm thử. Vui lòng báo cáo sự cố."
+
+#: src/preferences/accountPage.js
+msgid "Limit"
+msgstr "Giới hạn"
+
+#: src/preferences/accountPage.js
+msgid "Move Down"
+msgstr "Chuyển xuống"
+
+#: src/preferences/accountPage.js
+msgid "Move Up"
+msgstr "Chuyển lên"
+
+#: src/preferences/accountPage.js
+msgid "Name"
+msgstr "Tên"
+
+#: src/preferences/accountPage.js
+msgid "Optional; sent in the header above"
+msgstr "Tùy chọn; được gửi trong tiêu đề ở trên"
+
+#: src/preferences/accountPage.js
+msgid "Order"
+msgstr "Thứ tự"
+
+#: src/preferences/accountPage.js src/preferences/topBarPage.js
+msgid "Percentage"
+msgstr "Phần trăm"
+
+#. Translators: row title; the choices say whether the percentage counts used or remaining usage.
+#: src/preferences/accountPage.js
+msgid "Percentage counts"
+msgstr "Phần trăm tính theo"
+
+#: src/preferences/accountPage.js
+msgid "Reads usage from a JSON endpoint"
+msgstr "Đọc mức sử dụng từ một điểm cuối JSON"
+
+#: src/preferences/accountPage.js
+msgid "Redeem Manual Resets Automatically Before They Expire"
+msgstr "Tự động dùng lượt đặt lại thủ công trước khi hết hạn"
+
+#: src/preferences/accountPage.js
+msgid "Refresh interval (seconds)"
+msgstr "Chu kỳ làm mới (giây)"
+
+#: src/preferences/accountPage.js
+msgid "Region"
+msgstr "Khu vực"
+
+#: src/preferences/accountPage.js
+msgid "Remaining"
+msgstr "Còn lại"
+
+#: src/preferences/accountPage.js src/preferences/apiKeyGroup.js
+msgid "Remove"
+msgstr "Gỡ"
+
+#. Translators: the heading of a dialog that removes an account. %s is the account's name.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Remove %s?"
+msgstr "Gỡ %s?"
+
+#: src/preferences/accountPage.js
+msgid "Remove Account…"
+msgstr "Gỡ tài khoản…"
+
+#: src/preferences/accountPage.js
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: src/preferences/accountPage.js
+msgid "Reset time"
+msgstr "Thời điểm đặt lại"
+
+#: src/preferences/accountPage.js
+msgid "Response"
+msgstr "Phản hồi"
+
+#. Translators: %d is a number of seconds.
+#: src/preferences/accountPage.js
+#, javascript-format
+msgid "Seconds between automatic usage checks; minimum %d"
+msgstr "Số giây giữa các lần tự động kiểm tra mức sử dụng; tối thiểu %d"
+
+#: src/preferences/accountPage.js
+msgid "Show in Top Bar"
+msgstr "Hiện trên thanh trên cùng"
+
+#: src/preferences/accountPage.js
+msgid "Sign-In"
+msgstr "Đăng nhập"
+
+#: src/preferences/accountPage.js
+msgid "Start with /, and write ~0 for ~ and ~1 for / in names"
+msgstr "Bắt đầu bằng /, và viết ~0 cho ~ và ~1 cho / trong tên"
+
+#: src/preferences/accountPage.js
+msgid "Text before the key"
+msgstr "Văn bản trước khóa"
+
+#: src/preferences/accountPage.js
+msgid "The top bar shows the accounts in this order"
+msgstr "Thanh trên cùng hiện các tài khoản theo thứ tự này"
+
+#: src/preferences/accountPage.js
+msgid "URL"
+msgstr "URL"
+
+#: src/preferences/accountPage.js
+msgid "Usage page"
+msgstr "Trang mức sử dụng"
+
+#: src/preferences/accountPage.js
+msgid "Use an https address"
+msgstr "Dùng địa chỉ https"
+
+#: src/preferences/accountPage.js
+msgid "Use https, or http to this computer"
+msgstr "Dùng https, hoặc http tới máy tính này"
+
+#: src/preferences/accountPage.js
+msgid "Use letters, digits and !#$%&'*+-.^_`|~ only"
+msgstr "Chỉ dùng chữ cái, chữ số và !#$%&'*+-.^_`|~"
+
+#: src/preferences/accountPage.js
+msgid "Use the Default Directory"
+msgstr "Dùng thư mục mặc định"
+
+#: src/preferences/accountPage.js
+msgid "Used"
+msgstr "Đã dùng"
+
+#: src/preferences/accountPage.js
+msgid "Used amount"
+msgstr "Lượng đã dùng"
+
+#: src/preferences/accountPage.js
+msgid ""
+"Uses a manual reset in its last hour without asking. This resets the "
+"account’s usage limits unattended."
+msgstr ""
+"Tự dùng một lượt đặt lại thủ công trong giờ cuối mà không hỏi. Việc này đặt "
+"lại giới hạn sử dụng của tài khoản mà không cần có người giám sát."
+
+#: src/preferences/accountPage.js
+msgid "Uses an API key stored in the keyring"
+msgstr "Dùng khóa API được lưu trong chùm khóa"
+
+#: src/preferences/accountPage.js
+msgid "Uses the ChatGPT account signed in through the Codex CLI"
+msgstr "Dùng tài khoản ChatGPT đã đăng nhập qua Codex CLI"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Claude subscription signed in through Claude Code"
+msgstr "Dùng gói đăng ký Claude đã đăng nhập qua Claude Code"
+
+#: src/preferences/accountPage.js
+msgid "Uses the Google account signed in through the Antigravity CLI (agy)"
+msgstr "Dùng tài khoản Google đã đăng nhập qua Antigravity CLI (agy)"
+
+#: src/preferences/accountPage.js
+msgid "Where the key was created"
+msgstr "Nơi khóa được tạo"
+
+#: src/preferences/accountPage.js
+msgid "Window length (minutes)"
+msgstr "Độ dài chu kỳ (phút)"
+
+#: src/preferences/addAccountDialog.js
+msgid "API Keys"
+msgstr "Khóa API"
+
+#: src/preferences/addAccountDialog.js
+msgid "Add Account"
+msgstr "Thêm tài khoản"
+
+#: src/preferences/addAccountDialog.js
+msgid "Added already; its CLI has one login"
+msgstr "Đã thêm rồi; CLI của nó chỉ có một đăng nhập"
+
+#: src/preferences/addAccountDialog.js
+msgid "Beta"
+msgstr "Beta"
+
+#: src/preferences/addAccountDialog.js
+msgid "Command-Line Logins"
+msgstr "Đăng nhập dòng lệnh"
+
+#: src/preferences/addAccountDialog.js
+msgid "Other"
+msgstr "Khác"
+
+#: src/preferences/addAccountDialog.js
+msgid "Reads usage with an API key stored in the keyring"
+msgstr "Đọc mức sử dụng bằng khóa API lưu trong chùm khóa"
+
+#: src/preferences/addAccountDialog.js
+msgid "Uses the login of the provider’s command-line tool"
+msgstr "Dùng đăng nhập của công cụ dòng lệnh của nhà cung cấp"
+
+#: src/preferences/apiKeyGroup.js
+msgid "A key is stored in the keyring"
+msgstr "Một khóa đã được lưu trong chùm khóa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "API Key"
+msgstr "Khóa API"
+
+#. Translators: the label of the API key's item in the keyring. %s is a product name, such as OpenRouter, or Custom endpoint.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "Agent Usage Indicator: API key for %s"
+msgstr "Agent Usage Indicator: khóa API cho %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Apply the URL first, because a key belongs to the URL’s service"
+msgstr "Hãy áp dụng URL trước, vì khóa thuộc về dịch vụ của URL"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Checking the keyring…"
+msgstr "Đang kiểm tra chùm khóa…"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Enter a key without spaces or control characters"
+msgstr "Nhập khóa không có khoảng trắng hoặc ký tự điều khiển"
+
+#: src/preferences/apiKeyGroup.js
+msgid "Get an API Key"
+msgstr "Lấy khóa API"
+
+#: src/preferences/apiKeyGroup.js
+msgid "New key"
+msgstr "Khóa mới"
+
+#: src/preferences/apiKeyGroup.js
+msgid "No key stored"
+msgstr "Chưa lưu khóa nào"
+
+#. Translators: %s is a web address, such as https://example.com, or “this URL”.
+#: src/preferences/apiKeyGroup.js
+#, javascript-format
+msgid "No key stored for %s"
+msgstr "Chưa lưu khóa nào cho %s"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The account’s settings could not be saved, so the key was not stored"
+msgstr "Không lưu được cài đặt tài khoản nên khóa chưa được lưu"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not be read"
+msgstr "Không thể đọc chùm khóa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not remove the key"
+msgstr "Chùm khóa không thể gỡ khóa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring could not store the key"
+msgstr "Chùm khóa không thể lưu khóa"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not removed"
+msgstr "Hộp thoại chùm khóa đã bị đóng nên khóa chưa được gỡ"
+
+#: src/preferences/apiKeyGroup.js
+msgid "The keyring prompt was dismissed, so the key was not stored"
+msgstr "Hộp thoại chùm khóa đã bị đóng nên khóa chưa được lưu"
+
+#: src/preferences/apiKeyGroup.js
+msgid "this URL"
+msgstr "URL này"
+
+#: src/preferences/behaviorPage.js
+msgid "Behavior"
+msgstr "Hành vi"
+
+#. Translators: row title; the value is a number of seconds that temporary failures are hidden.
+#: src/preferences/behaviorPage.js
+msgid "Grace period (seconds)"
+msgstr "Thời gian châm chước (giây)"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Hide temporary failures before marking the last reading stale; 0 disables "
+"grace"
+msgstr ""
+"Ẩn các lỗi tạm thời trước khi đánh dấu số liệu cuối là cũ; 0 là tắt thời "
+"gian châm chước"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu"
+msgstr "Menu"
+
+#: src/preferences/behaviorPage.js
+msgid "Menu and Behavior"
+msgstr "Menu và hành vi"
+
+#: src/preferences/behaviorPage.js
+msgid ""
+"Record usage in ~/.local/state and chart it; turning this off deletes the "
+"record"
+msgstr ""
+"Ghi lại mức sử dụng trong ~/.local/state và vẽ biểu đồ; tắt tùy chọn này sẽ "
+"xóa bản ghi"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Reset Clock Time"
+msgstr "Hiện giờ đặt lại"
+
+#: src/preferences/behaviorPage.js
+msgid "Show Usage History"
+msgstr "Hiện lịch sử sử dụng"
+
+#: src/preferences/behaviorPage.js
+msgid "Show the time of day beside long countdowns"
+msgstr "Hiện giờ trong ngày bên cạnh các đồng hồ đếm ngược dài"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "%1$s–%2$s remaining"
+msgstr "còn lại %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Choose a Color for %1$s–%2$s Remaining"
+msgstr "Chọn màu cho khoảng còn lại %1$s–%2$s"
+
+#. Translators: %1$s and %2$s are percentages, the bounds of a range, such as 0%–10%.
+#: src/preferences/customColorRow.js
+#, javascript-format
+msgid "Hex color for %1$s–%2$s remaining"
+msgstr "Màu hex cho khoảng còn lại %1$s–%2$s"
+
+#: src/preferences/customColorRow.js
+msgid "Hex color in #RRGGBB format"
+msgstr "Màu hex theo định dạng #RRGGBB"
+
+#: src/preferences/customColorRow.js
+msgid "Set the level color for this range"
+msgstr "Đặt màu mức cho khoảng này"
+
+#: src/preferences/folderChooser.js
+msgid "Choose Configuration Directory"
+msgstr "Chọn thư mục cấu hình"
+
+#: src/preferences/notificationsPage.js
+msgid "Codex: when a manual reset expires within 48 hours"
+msgstr "Codex: khi một lượt đặt lại thủ công hết hạn trong vòng 48 giờ"
+
+#: src/preferences/notificationsPage.js
+msgid "Hours before the reset"
+msgstr "Số giờ trước khi đặt lại"
+
+#. Translators: notifications for when little of a usage limit is left.
+#: src/preferences/notificationsPage.js
+msgid "Limit Running Low"
+msgstr "Giới hạn sắp hết"
+
+#: src/preferences/notificationsPage.js
+msgid "Manual Resets"
+msgstr "Đặt lại thủ công"
+
+#: src/preferences/notificationsPage.js
+msgid "Notification threshold (%)"
+msgstr "Ngưỡng thông báo (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: src/preferences/notificationsPage.js
+msgid "Notify Before a Manual Reset Expires"
+msgstr "Thông báo trước khi lượt đặt lại thủ công hết hạn"
+
+#. Translators: a limit runs low when little of it is left.
+#: src/preferences/notificationsPage.js
+msgid "Notify When a Limit Runs Low"
+msgstr "Thông báo khi một giới hạn sắp hết"
+
+#: src/preferences/notificationsPage.js
+msgid "Once per usage window, for the limit shown in the top bar"
+msgstr "Một lần mỗi chu kỳ sử dụng, cho giới hạn hiện trên thanh trên cùng"
+
+#: src/preferences/notificationsPage.js
+msgid "Remaining percentage that triggers the notification"
+msgstr "Phần trăm còn lại sẽ kích hoạt thông báo"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind Me Before Usage Goes Unused"
+msgstr "Nhắc tôi trước khi mức sử dụng bị bỏ phí"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind no earlier than this before the reset"
+msgstr "Không nhắc sớm hơn mốc này trước khi đặt lại"
+
+#: src/preferences/notificationsPage.js
+msgid "Remind when at least this much would be left at the reset"
+msgstr "Nhắc khi lúc đặt lại sẽ còn lại ít nhất chừng này"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused Usage"
+msgstr "Mức sử dụng chưa dùng"
+
+#: src/preferences/notificationsPage.js
+msgid "Unused share (%)"
+msgstr "Phần chưa dùng (%)"
+
+#: src/preferences/notificationsPage.js
+msgid "When the current pace would leave usage unused at the reset"
+msgstr "Khi tốc độ hiện tại sẽ để lại mức sử dụng chưa dùng lúc đặt lại"
+
+#. Translators: the subtitle of a renamed account that is off. %s is its provider's name, such as Codex.
+#: src/preferences/preferencesView.js
+#, javascript-format
+msgid "%s, off"
+msgstr "%s, tắt"
+
+#: src/preferences/preferencesView.js
+msgid "Accounts"
+msgstr "Tài khoản"
+
+#: src/preferences/preferencesView.js
+msgid "Add Account…"
+msgstr "Thêm tài khoản…"
+
+#: src/preferences/preferencesView.js
+msgid "General"
+msgstr "Chung"
+
+#: src/preferences/preferencesView.js
+msgid "Off"
+msgstr "Tắt"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added, because an old API key could not be deleted from "
+"the keyring"
+msgstr "Chưa thêm tài khoản vì không thể xóa khóa API cũ khỏi chùm khóa"
+
+#: src/preferences/preferencesView.js
+msgid "The account was not added, because no free account slot is left"
+msgstr "Chưa thêm tài khoản vì không còn chỗ trống cho tài khoản"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not added: another account of this type uses the default "
+"login, so a new one needs its own configuration directory"
+msgstr ""
+"Chưa thêm tài khoản: một tài khoản khác cùng loại đang dùng đăng nhập mặc "
+"định nên tài khoản mới cần thư mục cấu hình riêng"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The account was not removed, because its API key could not be deleted from "
+"the keyring"
+msgstr ""
+"Tài khoản chưa được gỡ vì không thể xóa khóa API của tài khoản khỏi chùm khóa"
+
+#: src/preferences/preferencesView.js
+msgid ""
+"The directory was not used, because another account of this type already "
+"signs in from it"
+msgstr ""
+"Thư mục không được dùng vì một tài khoản khác cùng loại đã đăng nhập từ đó"
+
+#: src/preferences/shortcutRow.js
+msgid "Disabled"
+msgstr "Đã tắt"
+
+#: src/preferences/shortcutRow.js
+msgid "Keyboard shortcut"
+msgstr "Phím tắt"
+
+#: src/preferences/shortcutRow.js
+msgid "Opens the menu of the first account; Left and Right move to the others"
+msgstr ""
+"Mở menu của tài khoản đầu tiên; Trái và Phải chuyển sang các tài khoản khác"
+
+#: src/preferences/shortcutRow.js
+msgid ""
+"Press a key combination with Ctrl, Alt or Super, or Backspace to remove the "
+"shortcut"
+msgstr ""
+"Nhấn một tổ hợp phím có Ctrl, Alt hoặc Super, hoặc Backspace để xóa phím tắt"
+
+#: src/preferences/shortcutRow.js
+msgid "Set Shortcut"
+msgstr "Đặt phím tắt"
+
+#. Translators: %s lists the placeholders, such as "{percent} {reset}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "A custom label can contain %s. Write {{ or }} for a literal brace."
+msgstr ""
+"Nhãn tùy chỉnh có thể chứa %s. Viết {{ hoặc }} để có dấu ngoặc nhọn nguyên "
+"văn."
+
+#: src/preferences/topBarPage.js
+msgid "Adjust the logo above a bar or dots"
+msgstr "Điều chỉnh logo phía trên thanh hoặc chấm"
+
+#: src/preferences/topBarPage.js
+msgid "Appearance"
+msgstr "Giao diện"
+
+#: src/preferences/topBarPage.js
+msgid "Area"
+msgstr "Vùng"
+
+#: src/preferences/topBarPage.js
+msgid "Assign a color to each 10% range of remaining allowance"
+msgstr "Gán một màu cho mỗi khoảng 10% của hạn mức còn lại"
+
+#: src/preferences/topBarPage.js
+msgid "Bar position"
+msgstr "Vị trí thanh"
+
+#: src/preferences/topBarPage.js
+msgid "Below"
+msgstr "Bên dưới"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Center"
+msgstr "Giữa"
+
+#: src/preferences/topBarPage.js
+msgid "Choose how the bar and dots are colored"
+msgstr "Chọn cách tô màu thanh và chấm"
+
+#: src/preferences/topBarPage.js
+msgid "Choose where the bar appears relative to the logo"
+msgstr "Chọn vị trí thanh so với logo"
+
+#: src/preferences/topBarPage.js
+msgid "Color scheme"
+msgstr "Bảng màu"
+
+#: src/preferences/topBarPage.js
+msgid "Colored"
+msgstr "Có màu"
+
+#: src/preferences/topBarPage.js
+msgid ""
+"Counts every item of the area, including those of GNOME Shell and other "
+"extensions"
+msgstr ""
+"Tính mọi mục trong vùng, kể cả của GNOME Shell và các tiện ích mở rộng khác"
+
+#: src/preferences/topBarPage.js
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: src/preferences/topBarPage.js
+msgid "Custom Colors"
+msgstr "Màu tùy chỉnh"
+
+#: src/preferences/topBarPage.js
+msgid "Custom label"
+msgstr "Nhãn tùy chỉnh"
+
+#: src/preferences/topBarPage.js
+msgid "Customized"
+msgstr "Tùy chỉnh"
+
+#: src/preferences/topBarPage.js
+msgid "Display one to four level dots below the logo"
+msgstr "Hiện từ một đến bốn chấm mức bên dưới logo"
+
+#: src/preferences/topBarPage.js
+msgid "Display the provider logo"
+msgstr "Hiện logo của nhà cung cấp"
+
+#: src/preferences/topBarPage.js
+msgid "Display the shown limit as a battery-shaped level bar"
+msgstr "Hiện giới hạn dưới dạng thanh mức hình pin"
+
+#: src/preferences/topBarPage.js
+msgid "Hiding the label and every part removes the indicators from the top bar"
+msgstr "Ẩn nhãn và mọi thành phần sẽ gỡ các chỉ báo khỏi thanh trên cùng"
+
+#: src/preferences/topBarPage.js
+msgid "Label"
+msgstr "Nhãn"
+
+#: src/preferences/topBarPage.js
+msgid "Left"
+msgstr "Bên trái"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Left"
+msgstr "Trái"
+
+#: src/preferences/topBarPage.js
+msgid "Level Colors"
+msgstr "Màu mức"
+
+#: src/preferences/topBarPage.js
+msgid "Logo size (%)"
+msgstr "Kích thước logo (%)"
+
+#: src/preferences/topBarPage.js
+msgid "None"
+msgstr "Không"
+
+#: src/preferences/topBarPage.js
+msgid "Part of the top bar that holds the indicators"
+msgstr "Phần của thanh trên cùng chứa các chỉ báo"
+
+#: src/preferences/topBarPage.js
+msgid "Percentage and reset countdown"
+msgstr "Phần trăm và đồng hồ đếm ngược đặt lại"
+
+#: src/preferences/topBarPage.js
+msgid "Percentages count up from 0% as the limit is used"
+msgstr "Phần trăm tăng dần từ 0% khi giới hạn được sử dụng"
+
+#: src/preferences/topBarPage.js
+msgid "Position"
+msgstr "Vị trí"
+
+#: src/preferences/topBarPage.js
+msgid "Position in the area"
+msgstr "Vị trí trong vùng"
+
+#: src/preferences/topBarPage.js
+msgid "Reset countdown"
+msgstr "Đồng hồ đếm ngược đặt lại"
+
+#: src/preferences/topBarPage.js
+msgid "Right"
+msgstr "Bên phải"
+
+#: src/preferences/topBarPage.js
+msgctxt "top bar area"
+msgid "Right"
+msgstr "Phải"
+
+#: src/preferences/topBarPage.js
+msgid "Show Bar"
+msgstr "Hiện thanh"
+
+#: src/preferences/topBarPage.js
+msgid "Show Dots"
+msgstr "Hiện chấm"
+
+#: src/preferences/topBarPage.js
+msgid "Show Logo"
+msgstr "Hiện logo"
+
+#: src/preferences/topBarPage.js
+msgid "Show Used Instead of Remaining"
+msgstr "Hiện lượng đã dùng thay vì còn lại"
+
+#. Translators: color scheme choices for the level meter:
+#. Symbolic follows the Shell foreground color, Colored uses success and warning colors,
+#. Customized uses the user's ranges.
+#: src/preferences/topBarPage.js
+msgid "Symbolic"
+msgstr "Đơn sắc"
+
+#: src/preferences/topBarPage.js
+#, no-javascript-format
+msgid ""
+"Symbolic follows the Shell foreground color, Colored uses the success color, "
+"and both use the warning color at 20% or less. Customized uses the ranges "
+"below."
+msgstr ""
+"Biểu tượng đơn sắc theo màu chữ của Shell, Có màu dùng màu thành công, và cả "
+"hai dùng màu cảnh báo khi còn 20% hoặc ít hơn. Tùy chỉnh dùng các khoảng bên "
+"dưới."
+
+#: src/preferences/topBarPage.js
+msgid "Text"
+msgstr "Văn bản"
+
+#: src/preferences/topBarPage.js
+msgid "Top Bar"
+msgstr "Thanh trên cùng"
+
+#. Translators: tooltip when the top bar label template contains unknown {placeholders}. %s lists them, such as "{foo} {bar}".
+#: src/preferences/topBarPage.js
+#, javascript-format
+msgid "Unknown placeholder: %s"
+msgid_plural "Unknown placeholders: %s"
+msgstr[0] "Phần giữ chỗ không rõ: %s"
+
+#: src/shared/providerTypes.js
+msgid "Custom endpoint"
+msgstr "Điểm cuối tùy chỉnh"
+
+#: src/ui/limitIndicator.js
+msgid "Error Details"
+msgstr "Chi tiết lỗi"
+
+#: src/ui/limitIndicator.js
+msgid "Manual Reset…"
+msgstr "Lượt đặt lại thủ công…"
+
+#: src/ui/limitIndicator.js
+msgid "Refresh"
+msgstr "Làm mới"
+
+#: src/ui/limitIndicator.js
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: src/ui/limitIndicator.js
+msgid "Usage Page"
+msgstr "Trang mức sử dụng"
+
+#: src/ui/limitIndicator.js
+msgid "Use in the Last Seven Days"
+msgstr "Mức dùng trong bảy ngày qua"
+
+#: src/ui/redeemDialog.js
+msgid ""
+"This uses the next manual reset and resets your current usage limits. It "
+"cannot be undone."
+msgstr ""
+"Thao tác này dùng lượt đặt lại thủ công tiếp theo và đặt lại giới hạn sử "
+"dụng hiện tại của bạn. Không thể hoàn tác."
+
+#. Translators: %s is the name of a manual reset.
+#: src/ui/redeemDialog.js
+#, javascript-format
+msgid ""
+"This uses “%s” and resets your current usage limits. It cannot be undone."
+msgstr ""
+"Thao tác này dùng “%s” và đặt lại giới hạn sử dụng hiện tại của bạn. Không "
+"thể hoàn tác."
+
+#: src/ui/redeemDialog.js
+msgid "Use Reset"
+msgstr "Dùng lượt đặt lại"
+
+#: src/ui/redeemDialog.js
+msgid "Use a Manual Reset?"
+msgstr "Dùng lượt đặt lại thủ công?"
+
+#~ msgid "Checking…"
+#~ msgstr "Đang kiểm tra…"
+
+#~ msgid "No key stored for the host of this URL"
+#~ msgstr "Chưa lưu khóa nào cho máy chủ của URL này"
+
+#, javascript-format
+#~ msgid "Refresh in %s"
+#~ msgstr "Làm mới sau %s"
+
+#~ msgid "Refreshing…"
+#~ msgstr "Đang làm mới…"
